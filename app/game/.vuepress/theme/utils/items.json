@@ -1,0 +1,18 @@
+[
+	{
+		"id": 1,
+		"instructions": "Pick up the",
+		"name": "key",
+		"initialHide": true,
+		"result": "You use your ship's robotic arm to pick up the key."
+	
+		
+	},	
+	{
+		"id": 2,
+		"instructions": "instruction 2",
+		"name": "name 2",
+		"gameItem": "game item 2",
+		"initialHide": true
+	}
+]

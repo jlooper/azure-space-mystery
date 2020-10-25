@@ -1,0 +1,28 @@
+{
+	"name": "static-game-engine",
+	"version": "1.0.0",
+	"description": "Explore and Learn!",
+	"main": "tailwind.config.js",
+	"scripts": {
+		"build": "vuepress build game",
+		"dev": "vuepress dev game"
+	},
+	"keywords": [],
+	"author": "softchris,jlooper",
+	"license": "MIT",
+	"dependencies": {
+		"autoprefixer": "^9.8.6",
+		"axios": "^0.19.2",
+		"mitt": "^2.1.0",
+		"tailwindcss": "^1.9.6",
+		"vuepress": "^1.7.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jlooper/static-game-engine"
+	},
+	"bugs": {
+		"url": "https://github.com/jlooper/static-game-engine"
+	},
+	"homepage": "https://github.com/jlooper/static-game-engine"
+}
