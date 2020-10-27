@@ -1,11 +1,12 @@
 {
-	"name": "static-game-engine",
+	"name": "azure-space-mystery",
 	"version": "1.0.0",
 	"description": "Explore and Learn!",
 	"main": "tailwind.config.js",
 	"scripts": {
 		"build": "vuepress build game",
-		"dev": "vuepress dev game"
+		"dev": "vuepress dev game",
+		"postbuild": "mkdir ./game/.vuepress/dist/AzureSpaceMystery && cp -rf ./game/.vuepress/dist/assets* ./game/.vuepress/dist/AzureSpaceMystery/assets && cp -rf ./game/.vuepress/dist/fonts* ./game/.vuepress/dist/AzureSpaceMystery/fonts && cp -rf ./game/.vuepress/dist/images* ./game/.vuepress/dist/AzureSpaceMystery/images && cp -rf ./game/.vuepress/dist/rocket* ./game/.vuepress/dist/AzureSpaceMystery/rocket && cp -rf ./game/.vuepress/dist/404.html ./game/.vuepress/dist/AzureSpaceMystery/404.html && cp -rf ./game/.vuepress/dist/index.html ./game/.vuepress/dist/AzureSpaceMystery/index.html"
 	},
 	"keywords": [],
 	"author": "softchris,jlooper",
@@ -15,7 +16,8 @@
 		"axios": "^0.19.2",
 		"mitt": "^2.1.0",
 		"tailwindcss": "^1.9.6",
-		"vuepress": "^1.7.1"
+		"vuepress": "^1.7.1",
+		"vue-i18n": "^8.21.1"
 	},
 	"repository": {
 		"type": "git",

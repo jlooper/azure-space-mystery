@@ -1,8 +1,8 @@
 ---
-backdrop: images/controls.png
+backdrop: images/badgers.jpg
 ---
 
-# Welcome, explorer!
+# Base - Welcome, explorer!
 
 You have been traveling through space, on a mission to join the International Space Station. The astronauts there await the arrival of supplies from your ship.
 
