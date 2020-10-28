@@ -1,9 +1,13 @@
 <template>
   <div class="markdown-body">
-    <p class="text-2xl pb-5 pt-5 ml-5 text-sans text-white text-left">Inventory</p>
+    <p class="text-2xl pb-5 pt-5 ml-5 text-sans text-white text-left">
+      Inventory
+    </p>
     <div class="p-5 text-left">
       <div v-if="inventory.length == 0">
-        <span class="text-white text-left">Sorry, there is nothing to show here.</span>
+        <span class="text-white text-left"
+          >Sorry, there is nothing to show here.</span
+        >
       </div>
       <div v-else>
         <div class="wrapper">
@@ -47,12 +51,8 @@ export default {
     this.showInventoryItems();
 
     emitter.on("item_added", (id) => {
-      console.log("item added");
       this.showInventoryItems();
     });
-  },
-  mounted() {
-    emitter.on("*", (type, e) => console.log("listening to item ", type, e));
   },
 };
 </script>

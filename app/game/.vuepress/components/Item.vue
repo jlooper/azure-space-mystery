@@ -8,7 +8,9 @@
         aria-expanded="true"
         onclick="return false"
         @click="showResult = !showResult"
-      >{{ getName }}</button>
+      >
+        {{ getName }}
+      </button>
     </p>
     <p class="font-bold" v-if="showResult">{{ getResult }}</p>
   </div>
@@ -78,7 +80,7 @@ export default {
     },
   },
   mounted() {
-    emitter.on("*", (type, e) => console.log("listening to item ", type, e));
+    //emitter.on("*", (type, e) => console.log("listening to item ", type, e));
   },
 };
 </script>

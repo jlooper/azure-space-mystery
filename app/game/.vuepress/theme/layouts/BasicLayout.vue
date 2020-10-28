@@ -7,10 +7,10 @@
           for="grid-state"
           >{{ $t("language") }}</label
         >
-        <div class="relative" @keyup="setLanguage($event)">
+        <div class="relative">
           <select
             role="listbox"
-            @click="setLanguage($event)"
+            @change="setLanguage($event)"
             class="block appearance-none w-full border border-gray-200 py-3 px-4 pr-8 rounded leading-tight"
             id="level"
           >
@@ -59,23 +59,21 @@ export default {
     setLanguage(event) {
       if (event.keyCode != 27) {
         var lang = event.target.value;
+        this.$i18n.locale = lang;
         setLocale(lang);
         emitter.emit("lang_changed", lang);
         var currPath = this.$route.matched[0].path;
         var newPath = currPath.replace(/es|pt|en|fr/gi, lang);
-        //check to make sure you're not already on this page
-        if (newPath == "") {
-          this.$router.push({ path: "/rocket/" + getLocale() + "/1" });
-        } else {
-          if (currPath !== newPath) {
-            this.$router.push({ path: newPath });
-          }
-        }
+        this.$router.push({ path: newPath });
+        
       }
     },
   },
   mounted() {
     emitter.on("*", (type, e) => console.log("listening to page ", type, e));
+  },
+  created() {
+    this.$i18n.locale = getLocale();
   },
 };
 </script>

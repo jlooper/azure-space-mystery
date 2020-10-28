@@ -35,18 +35,12 @@ export default {
     this.getInventory(1);
 
     emitter.on("item_added", (id) => {
-      console.log(id);
       this.getInventory(id);
     });
 
     emitter.on("showResult", (id) => {
-      console.log("show results");
-      console.log(id);
       this.getInventory(id);
     });
-  },
-  mounted() {
-    emitter.on("*", (type, e) => console.log("listening to page ", type, e));
   },
 };
 </script>
