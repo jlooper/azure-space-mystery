@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" :dir="dir">
     <div
       class="markdown-body font-serif bg-white m-2 sm:m-3 md:m-6 lg:m-12 text-lg rounded-lg"
     >
@@ -30,6 +30,7 @@ import Nav from "@theme/components/Nav.vue";
 import BasicLayout from "@theme/layouts/BasicLayout.vue";
 import Inventory from "@theme/components/Inventory.vue";
 import Footer from "@theme/components/Footer.vue";
+import { emitter } from "@theme/utils/emitter";
 
 export default {
   components: {
@@ -38,11 +39,14 @@ export default {
     Inventory,
     Footer,
   },
+
   data() {
     return {
       hidden: "lg:inline-block md:hidden sm:hidden hidden w-1/2",
+      dir: "ltr",
     };
   },
+
   computed: {
     layout() {
       return this.$page.frontmatter.layout || "BasicLayout";
@@ -57,10 +61,19 @@ export default {
       return this.$page.frontmatter.fullScreenLayout || false;
     },
   },
+  mounted() {
+    emitter.on("lang_changed", (lang) => {
+      if (lang == "ar") {
+        this.dir = "rtl";
+      } else {
+        this.dir = "ltr";
+      }
+    });
+  },
 };
 </script>
 
-<style scoped>
+<style>
 .backdrop {
   background-repeat: no-repeat;
   background-size: cover;

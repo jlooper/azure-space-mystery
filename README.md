@@ -18,7 +18,7 @@ npm install -g vuepress
 
 Follow the instructions [here](https://vuepress.vuejs.org/guide/getting-started.html) to get set up. When your local system is ready, you can start running this web site for local development.
 
-To run the site locally, use the command:
+To run the site locally, use the command from the `app` folder:
 
 `npm run dev`.
 

@@ -1,9 +1,9 @@
 <template>
   <div class="markdown-body">
-    <div class="float-right mr-3">
+    <div class="float-end mr-3">
       <div class="flex flex-wrap m-2">
         <label
-          class="mr-3 float-left block tracking-wide text-white text-xs font-bold mb-2"
+          class="me-3 float-end block tracking-wide text-white text-xs mb-2"
           for="grid-state"
           >{{ $t("language") }}</label
         >
@@ -11,13 +11,14 @@
           <select
             role="listbox"
             @change="setLanguage($event)"
-            class="block appearance-none w-full border border-gray-200 py-3 px-4 pr-8 rounded leading-tight"
+            class="block appearance-none w-full border border-gray-200 py-3 px-4 ps-8 rounded leading-tight"
             id="level"
           >
             <option role="link" value="en">English</option>
             <option role="link" value="es">Español</option>
             <option role="link" value="fr">Français</option>
             <option role="link" value="pt">Português</option>
+            <option role="link" value="ar">اَلْعَرَبِيَّةُ</option>
           </select>
           <div
             class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
@@ -63,9 +64,8 @@ export default {
         setLocale(lang);
         emitter.emit("lang_changed", lang);
         var currPath = this.$route.matched[0].path;
-        var newPath = currPath.replace(/es|pt|en|fr/gi, lang);
+        var newPath = currPath.replace(/es|pt|en|ar|fr/gi, lang);
         this.$router.push({ path: newPath });
-        
       }
     },
   },

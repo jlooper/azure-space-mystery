@@ -1,11 +1,11 @@
 <template>
   <div class="markdown-body">
-    <p class="text-2xl pb-5 pt-5 ml-5 text-sans text-white text-left">
+    <p class="text-2xl pb-5 pt-5 ms-5 text-sans text-white text-start">
       Inventory
     </p>
-    <div class="p-5 text-left">
+    <div class="p-5 text-start">
       <div v-if="inventory.length == 0">
-        <span class="text-white text-left"
+        <span class="text-white text-start"
           >Sorry, there is nothing to show here.</span
         >
       </div>

@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="nav rounded-t flex items-center justify-between flex-wrap text-right pr-0 lg:pr-5 md:pr-3 sm:pr-0 border-b"
+    class="nav rounded-t flex items-center justify-between flex-wrap text-end pr-0 lg:pr-5 md:pr-3 sm:pr-0 border-b"
   >
     <span class="lg:w-1/2 md:w-full sm:w-full w-full">
       <img :src="$withBase('/images/logo.png')" alt="Microsoft logo" />

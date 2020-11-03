@@ -17,7 +17,8 @@
 		"mitt": "^2.1.0",
 		"tailwindcss": "^1.9.6",
 		"vuepress": "^1.7.1",
-		"vue-i18n": "^8.21.1"
+		"vue-i18n": "^8.21.1",
+		"tailwindcss-rtl": "^0.6.0"
 	},
 	"repository": {
 		"type": "git",
