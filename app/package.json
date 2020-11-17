@@ -14,11 +14,12 @@
 	"dependencies": {
 		"autoprefixer": "^9.8.6",
 		"axios": "^0.19.2",
+		"clippyjs": "0.0.3",
 		"mitt": "^2.1.0",
 		"tailwindcss": "^1.9.6",
-		"vuepress": "^1.7.1",
+		"tailwindcss-rtl": "^0.6.0",
 		"vue-i18n": "^8.21.1",
-		"tailwindcss-rtl": "^0.6.0"
+		"vuepress": "^1.7.1"
 	},
 	"repository": {
 		"type": "git",

@@ -50,6 +50,7 @@ import { emitter } from "@theme/utils/emitter";
 import { getLocale, setLocale } from "@theme/utils/helpers";
 import messages from "@theme/translations/misc.js";
 import { i18n } from "@theme/utils/i18n";
+import clippy from "clippyjs";
 
 export default {
   name: "BasicLayout",
@@ -74,6 +75,12 @@ export default {
   },
   created() {
     this.$i18n.locale = getLocale();
+
+    clippy.load("Clippy", function (agent) {
+      // Do anything with the loaded agent
+      agent.show();
+      agent.speak("hello");
+    });
   },
 };
 </script>
