@@ -1,14 +1,15 @@
 ---
-backdrop: images/badgers.jpg
+backdrop: images/bg.jpg
 ---
 
-# Base - Welcome, explorer!
+# Ship's Log: Day 2020
 
-You have been traveling through space, on a mission to join the International Space Station. The astronauts there await the arrival of supplies from your ship.
+<em>Location: 250 miles above Earth, traveling at 17,500 mph. The space crew is in a good mood. They are looking forward to today's return to Earth. I can´t believe that the mission is almost over. We have made groundbreaking discoveries that will change the way we understand the ...</em>
 
-According to your coordinates, however, you are badly lost! Suddenly, your console lights up and a button turns red and starts beeping. A switch glows an eerie blue. And a handle seems like it needs to be pulled.
+Suddenly, Cosmonaut Laika runs toward you, breathless: "Captain, we have received an SOS message from the International Space Station. Their solar array wing was knocked off by debris. They are quickly running out of power! They need our help to collect the four missing pieces and deliver them back to the ISS as soon as possible."
 
-<Page url="/rocket/en/1a" instructions="" action="Press the button" condition="none" />
+You must make a decision:
 
-<Page url="/rocket/en/2a" instructions="" action="Flip the blue switch" condition="none" />
-<Page url="/rocket/en/3a" instructions="" action="Pull the handle" condition="none" />
+<Page url="/rocket/en/1" instructions="" action="Save the ISS" condition="none" />
+
+<Page url="/rocket/en/2" instructions="" action="Return to Earth" condition="none" />

@@ -1,5 +1,5 @@
 ---
-backdrop: images/badgers.jpg
+backdrop: images/bg.jpg
 ---
 
 # Spanish Homepage

@@ -5,7 +5,7 @@ module.exports = {
 		plugins: [require('autoprefixer'), require('tailwindcss')('./tailwind.config.js')],
 	},
 	dest: 'game/.vuepress/dist/',
-	base: '/AzureSpaceRace/',
+	base: '/AzureSpaceMystery/',
 	themeConfig: {
 		search: false,
 	},

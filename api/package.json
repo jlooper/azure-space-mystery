@@ -1,0 +1,8 @@
+{
+	"name": "azure-maya-mystery-functions",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+		"playfab-sdk": "^2.59.201027"
+	}
+}

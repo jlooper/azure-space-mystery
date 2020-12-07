@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper" :dir="dir">
     <div
-      class="markdown-body font-serif bg-white m-2 sm:m-3 md:m-6 lg:m-12 text-lg rounded-lg"
+      class="markdown-body font-sans bg-white m-2 sm:m-3 md:m-6 lg:m-12 text-lg rounded-lg"
     >
       <Nav />
       <div
