@@ -17,7 +17,7 @@
 </template>
 <script>
 const items = require("@theme/utils/items.json");
-import { addItem } from "@theme/utils/helpers";
+import { addItem } from "@theme/utils";
 import { emitter } from "@theme/utils/emitter";
 
 export default {
@@ -75,12 +75,10 @@ export default {
         this.showInstructions = false;
       }
     },
+
     emitResult(item) {
       emitter.emit("showResult", item.id);
     },
-  },
-  mounted() {
-    //emitter.on("*", (type, e) => console.log("listening to item ", type, e));
   },
 };
 </script>

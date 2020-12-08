@@ -47,13 +47,9 @@
 
 <script>
 import { emitter } from "@theme/utils/emitter";
-import { getLocale, setLocale } from "@theme/utils/helpers";
+import { getLocale, setLocale } from "@theme/utils";
 import messages from "@theme/translations/misc.js";
 import { i18n } from "@theme/utils/i18n";
-import { createToastInterface } from "vue-toastification";
-const toast = createToastInterface();
-import "vue-toastification/dist/index.css";
-import Popup from "@theme/components/Popup.vue";
 
 export default {
   name: "BasicLayout",
@@ -78,21 +74,6 @@ export default {
   },
   created() {
     this.$i18n.locale = getLocale();
-
-    toast(Popup, {
-      position: "top-right",
-      timeout: 5000,
-      closeOnClick: true,
-      pauseOnFocusLoss: true,
-      pauseOnHover: true,
-      draggable: true,
-      draggablePercent: 0.6,
-      showCloseButtonOnHover: false,
-      hideProgressBar: true,
-      closeButton: "button",
-      icon: false,
-      rtl: false,
-    });
   },
 };
 </script>

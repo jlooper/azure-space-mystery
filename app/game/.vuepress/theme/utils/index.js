@@ -3,6 +3,7 @@ if (typeof window === 'undefined') {
 	console.log('is Node.js');
 
 	const items = require('./items.json');
+	const helpers = require('./helpers.json');
 
 	global.localStorage = {
 		generateUID() {},
@@ -17,6 +18,13 @@ if (typeof window === 'undefined') {
 		getItem() {
 			// we need a mocked response of all items, otherwise the build process will crash every time we add a new item
 			const mockResponse = items.reduce((acc, curr) => {
+				return { ...acc, [curr.id]: true };
+			}, {});
+			return JSON.stringify(mockResponse);
+		},
+		getHelper() {
+			// we need a mocked response of all helpers, otherwise the build process will crash every time we add a new item
+			const mockResponse = helpers.reduce((acc, curr) => {
 				return { ...acc, [curr.id]: true };
 			}, {});
 			return JSON.stringify(mockResponse);
