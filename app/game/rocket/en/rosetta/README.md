@@ -10,8 +10,8 @@ You hear a voice behind you.
 
 <Helper id="1"/>
 
-<Page url="/rocket/en/rosetta/dust"  action="Steer towards the dust tail" condition="none" />
+<Page url="dust"  action="Steer towards the dust tail" condition="none" />
 
-<Page url="/rocket/en/rosetta/ion"  action="Steer towards the ion tail" condition="none" />
+<Page url="ion"  action="Steer towards the ion tail" condition="none" />
 
 

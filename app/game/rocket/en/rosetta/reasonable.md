@@ -8,6 +8,6 @@ The sun must be to your lower right. You check to see this is correct and nearly
 
 Both you and the comet are on a trajectory but in different elliptical directions. To avoid a collision, make a choice:  
 
-<Page url="/rocket/en/rosetta/increase" instructions="" action="Increase your distance from the sun" condition="none" />
+<Page url="increase" instructions="" action="Increase your distance from the sun" condition="none" />
 
-<Page url="/rocket/en/rosetta/reduce" instructions="" action="Reduce your distance from the sun" condition="none" />
+<Page url="reduce" instructions="" action="Reduce your distance from the sun" condition="none" />

@@ -8,6 +8,6 @@ Caroline Herschel nods with approval. "Good choice, we can pass through the ion 
 
 Now you need to avoid hitting the comet. 
 
-<Page url="/rocket/en/rosetta/reasonable" instructions="" action="Calculate your trajectory with your own logic" condition="none" />
+<Page url="reasonable" instructions="" action="Calculate your trajectory with your own logic" condition="none" />
 
-<Page url="/rocket/en/rosetta/kepler" instructions="" action="Calculate your trajectory using Kepler's laws" condition="none" />
+<Page url="kepler" instructions="" action="Calculate your trajectory using Kepler's laws" condition="none" />
