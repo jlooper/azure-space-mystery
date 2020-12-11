@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-center">
     <blockquote class="speech-bubble">
       <p>
         That's a comet! It's on a collision course. You need to be quick,
@@ -7,7 +7,7 @@
         degrees Kelvin.
       </p>
     </blockquote>
-    <img src="/images/caroline.jpg" />
+    <img class="mb-10" style="display: inline" src="/images/caroline.jpg" />
   </div>
 </template>
 
