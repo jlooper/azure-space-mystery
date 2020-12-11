@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "vuepress build game",
 		"dev": "vuepress dev game",
-		"postbuild": "mkdir ./game/.vuepress/dist/AzureSpaceMystery && cp -rf ./game/.vuepress/dist/assets* ./game/.vuepress/dist/AzureSpaceMystery/assets && cp -rf ./game/.vuepress/dist/fonts* ./game/.vuepress/dist/AzureSpaceMystery/fonts && cp -rf ./game/.vuepress/dist/images* ./game/.vuepress/dist/AzureSpaceMystery/images && cp -rf ./game/.vuepress/dist/rocket* ./game/.vuepress/dist/AzureSpaceMystery/rocket && cp -rf ./game/.vuepress/dist/404.html ./game/.vuepress/dist/AzureSpaceMystery/404.html && cp -rf ./game/.vuepress/dist/index.html ./game/.vuepress/dist/AzureSpaceMystery/index.html"
+		"postbuild": "mkdir ./game/.vuepress/dist/AzureSpaceMystery && cp -rf ./game/.vuepress/dist/assets* ./game/.vuepress/dist/AzureSpaceMystery/assets && cp -rf ./game/.vuepress/dist/images* ./game/.vuepress/dist/AzureSpaceMystery/images && cp -rf ./game/.vuepress/dist/rocket* ./game/.vuepress/dist/AzureSpaceMystery/rocket && cp -rf ./game/.vuepress/dist/404.html ./game/.vuepress/dist/AzureSpaceMystery/404.html && cp -rf ./game/.vuepress/dist/index.html ./game/.vuepress/dist/AzureSpaceMystery/index.html"
 	},
 	"keywords": [
 		"Azure",
@@ -21,7 +21,6 @@
 		"mitt": "^2.1.0",
 		"tailwindcss": "^1.9.6",
 		"tailwindcss-rtl": "^0.6.0",
-		"vue-toastification": "^1.7.8",
 		"vue-i18n": "^8.21.1",
 		"vuepress": "^1.7.1"
 	},

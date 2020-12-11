@@ -22,7 +22,7 @@
   </div>
 </template>
 <script>
-import { getItems } from "@theme/utils/helpers";
+import { getItems } from "@theme/utils";
 const items = require("@theme/utils/items.json");
 import { emitter } from "@theme/utils/emitter";
 

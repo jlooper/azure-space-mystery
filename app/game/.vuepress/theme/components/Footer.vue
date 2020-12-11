@@ -27,7 +27,7 @@
 </template>
 <script>
 import { emitter } from "@theme/utils/emitter";
-import { getLocale, setLocale } from "@theme/utils/helpers";
+import { getLocale, setLocale } from "@theme/utils";
 import messages from "@theme/translations/footer.js";
 import { i18n } from "@theme/utils/i18n";
 
