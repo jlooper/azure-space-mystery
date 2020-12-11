@@ -8,7 +8,7 @@ You are traveling through space, searching the black infinity for pieces of the 
 
 You hear a voice behind you.
 
-<Helper id="1"/>
+<!--<Helper id="1"/>-->
 
 <Page url="dust"  action="Steer towards the dust tail" condition="none" />
 

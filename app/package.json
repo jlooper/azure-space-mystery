@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "vuepress build game",
 		"dev": "vuepress dev game",
-		"postbuild": "mkdir ./game/.vuepress/dist/AzureSpaceMystery && cp -rf ./game/.vuepress/dist/assets* ./game/.vuepress/dist/AzureSpaceMystery/assets && cp -rf ./game/.vuepress/dist/fonts* ./game/.vuepress/dist/AzureSpaceMystery/fonts && cp -rf ./game/.vuepress/dist/images* ./game/.vuepress/dist/AzureSpaceMystery/images && cp -rf ./game/.vuepress/dist/rocket* ./game/.vuepress/dist/AzureSpaceMystery/rocket && cp -rf ./game/.vuepress/dist/404.html ./game/.vuepress/dist/AzureSpaceMystery/404.html && cp -rf ./game/.vuepress/dist/index.html ./game/.vuepress/dist/AzureSpaceMystery/index.html"
+		"postbuild": "mkdir ./game/.vuepress/dist/AzureSpaceMystery && cp -rf ./game/.vuepress/dist/assets* ./game/.vuepress/dist/AzureSpaceMystery/assets && cp -rf ./game/.vuepress/dist/images* ./game/.vuepress/dist/AzureSpaceMystery/images && cp -rf ./game/.vuepress/dist/rocket* ./game/.vuepress/dist/AzureSpaceMystery/rocket && cp -rf ./game/.vuepress/dist/404.html ./game/.vuepress/dist/AzureSpaceMystery/404.html && cp -rf ./game/.vuepress/dist/index.html ./game/.vuepress/dist/AzureSpaceMystery/index.html"
 	},
 	"keywords": [
 		"Azure",
