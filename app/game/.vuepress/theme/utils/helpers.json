@@ -6,6 +6,15 @@
 		"initialHide": true,
 		"learn": "Meet Caroline Herschel",
 		"link": "https://en.wikipedia.org/wiki/Caroline_Herschel",
-		"result": "Can you see the tail? The comet is on a trajectory – and so are we. We need to avoid hitting the comet and one of the tails, while we can go through the other."
+		"result": "Can you see the tail? The comet is on a trajectory – and so are we. We need to avoid hitting both the comet and one of the tails, while we can go through the other."
+	},
+	{
+		"id": 2,
+		"instructions": "Turn around",
+		"name": "Raymonde",
+		"initialHide": true,
+		"learn": "Meet Raymonde de Laroche",
+		"link": "https://en.wikipedia.org/wiki/Raymonde_de_Laroche",
+		"result": "I know you want to retrieve that frame, but it's too dangerous to leave the spaceship because of the radiation. We must use the space drone. To do this, use a secret code."
 	}
 ]
