@@ -1,7 +1,7 @@
 <template>
   <div class="markdown-body">
     <p class="text-2xl pb-5 pt-5 ms-5 text-sans text-white text-start">
-      Inventory
+      Collection Bay
     </p>
     <div class="p-5 text-start">
       <div v-if="inventory.length == 0">
@@ -13,7 +13,10 @@
         <div class="wrapper">
           <div v-for="item in inventory" class="item">
             <div class="inventoryItem">
-              <p class="caption">{{ getName(item) }}</p>
+              <span class="container" width="200px">
+                <img :src="getUrl(item)" :alt="getName(item).name" />
+              </span>
+              <p class="caption">{{ getName(item).name }}</p>
             </div>
           </div>
         </div>
@@ -43,8 +46,13 @@ export default {
         return "";
       }
       let currItem = item;
-      currItem = currItem.name;
       return currItem;
+    },
+    getUrl(item) {
+      if (item) {
+        return this.$withBase("/images/" + item.url);
+      }
+      return "";
     },
   },
   created() {

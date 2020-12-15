@@ -7,7 +7,9 @@
       <div
         role="banner"
         v-if="hasBackdrop"
-        :style="{ backgroundImage: 'url(' + hasBackdrop + ')' }"
+        :style="{
+          backgroundImage: 'url(/AzureSpaceMystery/' + hasBackdrop + ')',
+        }"
         class="w-full image backdrop"
       >
         &nbsp;
@@ -77,6 +79,6 @@ export default {
 .backdrop {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 </style>
