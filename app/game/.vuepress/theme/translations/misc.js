@@ -1,22 +1,30 @@
 export default {
 	en: {
-		takepic: 'Take a picture?',
-		myadventure: 'My Adventure',
 		language: 'Language',
+		pass: 'Well done!',
+		fail: 'Sorry, try again',
+		try: 'Submit',
+		continue: 'Continue',
 	},
 	fr: {
-		takepic: 'Prendre une photo?',
-		myadventure: 'Mon aventure',
 		language: 'Langue',
+		pass: 'Bien fait!',
+		fail: 'Désolé, réessayez',
+		try: 'Soumettre',
+		continue: 'Continuer',
 	},
 	es: {
-		takepic: '¿Tomar una foto?',
-		myadventure: 'Mi aventura',
 		language: 'Idioma',
+		pass: '¡Bien hecho!',
+		fail: 'Lo siento, intenta de nuevo',
+		try: 'Enviar',
+		continue: 'Continuar',
 	},
 	pt: {
-		takepic: 'Tirar uma foto?',
-		myadventure: 'Minha aventura',
 		language: 'Língua',
+		pass: 'Parabéns!',
+		fail: 'Desculpe, tente novamente',
+		try: 'Enviar',
+		continue: 'Continuar',
 	},
 };

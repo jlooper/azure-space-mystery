@@ -12,5 +12,12 @@
 		"name": "monocrystalline solar cell",
 		"initialHide": true,
 		"url": "solar-cell.jpg"
+	},
+	{
+		"id": 3,
+		"instructions": "Collect the",
+		"name": "metal frame",
+		"initialHide": true,
+		"url": "metal-frame.jpg"
 	}
 ]
