@@ -4,7 +4,9 @@ backdrop: images/monocrystalline-solar-cell.jpg
 
 # Space junk
 
-After passing by the comet, you find a monocrystalline solar cell. This must be a part of the ISS's broken element! You reach out with a robotic arm and pick it up.
+By the badgers nose, that was a close call. You manage to steer away from the comet, just in time.
+
+Floating just before you is the _monocrystalline solar cell_. This must be a part of the ISS's broken element! You reach out with a robotic arm and pick it up. Success!
 
 <Item id="2"/>
 

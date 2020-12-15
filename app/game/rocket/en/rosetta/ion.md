@@ -4,10 +4,26 @@ backdrop: images/comet.jpg
 
 # To the Ion Tail
 
-Caroline Herschel nods with approval. "Good choice, we can pass through the ion tail, also called the gas tail, without harm. The ion tail is on the upper left, while the dust tail is on its upper right. The ion tail always points away from the sun."
+Your ship passes the ion tail and a blue shimmer lights up the cabin. Caroline Herschel nods with approval.
 
-Now you need to avoid hitting the comet. 
+_"Good choice, the ion tail, allows us to pass without harm. Did you know it's also called "the gas tail"?_
 
-<Page url="reasonable" instructions="" action="Calculate your trajectory with your own logic" condition="none" />
+<img class="mb-10" style="display: inline" src="/images/comet.jpg" />
 
-<Page url="kepler" instructions="" action="Calculate your trajectory using Kepler's laws" condition="none" />
+Caroline Herschel points at the comet saying:
+
+_The _dust tail_ is that big yellow thing to your upper right and would surely have meant trouble for the engines._
+
+You realize you narrowingly escaped a massive engine failure. - Phew
+
+_Did you know the _ion tail_ always points away from the sun?_
+
+You listen and nod with interest when suddenly..
+
+_You're not in the clear yet, Caroline suddenly cries out. We need to steer away from the comet itself. Quickly, make an evasive maneuver!_
+
+You grab the steering and you..
+
+<Page url="dust"  action="Make a right" condition="none" />
+<Page url="down"  action="Steer down" condition="none" />
+<Page url="continue"  action="Make a left" condition="none" />
