@@ -1,5 +1,5 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/dashboard.jpg
 ---
 
 # Mission: Rosetta

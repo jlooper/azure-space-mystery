@@ -1,5 +1,5 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/monocrystalline-solar-cell.jpg
 ---
 
 # Space junk

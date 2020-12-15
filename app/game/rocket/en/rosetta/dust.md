@@ -1,5 +1,5 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/comet.jpg
 ---
 
 # Catastrophe

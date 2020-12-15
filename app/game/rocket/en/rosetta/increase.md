@@ -1,9 +1,9 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/comet.jpg
 ---
 
 # Increase your distance
 
-Great choice! You reduced your distance to the sun and thus avoided hitting the comet and avoided passing through one of its tails. That’s how it’s done!
+Although reducing the distance would be a bit safer, you avoided hitting the comet and are are now passing through its ion tail.
 
 <Page url="continue" instructions="" action="Pass the comet" condition="none" />
