@@ -1,7 +1,7 @@
 <template>
   <div @click="getItem(item)">
     <p v-if="showInstructions" @click="emitResult(item)">
-      {{ getInstructions }}
+      {{ getDetails.instructions }}
       <button
         type="button"
         class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
@@ -9,10 +9,10 @@
         onclick="return false"
         @click="showResult = !showResult"
       >
-        {{ getName }}
+        {{ getDetails.name }}
       </button>
     </p>
-    <p class="font-bold" v-if="showResult">{{ getResult }}</p>
+    <p class="font-bold" v-if="showResult">{{ getDetails.result }}</p>
   </div>
 </template>
 <script>
@@ -29,25 +29,8 @@ export default {
       item = item || { name: "not set" };
       return item;
     },
-    getInstructions() {
+    getDetails() {
       let currItem = items.find((row) => row.id == this.id);
-
-      currItem = currItem.instructions;
-
-      return currItem;
-    },
-    getResult() {
-      let currItem = items.find((row) => row.id == this.id);
-
-      currItem = currItem.result;
-
-      return currItem;
-    },
-    getName() {
-      let currItem = items.find((row) => row.id == this.id);
-
-      currItem = currItem.name;
-
       return currItem;
     },
   },
