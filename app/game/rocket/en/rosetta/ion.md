@@ -6,22 +6,22 @@ backdrop: images/comet.jpg
 
 Your ship passes the ion tail and a blue shimmer lights up the cabin. Caroline Herschel nods with approval.
 
-_"Good choice, the ion tail, allows us to pass without harm. Did you know it's also called "the gas tail"?_
+_"Good choice. The **ion tail** allows us to pass without harm. Did you know it's also called "the **gas tail**"?_
 
-Caroline Herschel points at the comet saying:
+She points at the comet, saying:
 
-_The _dust tail_ is that big yellow thing to your upper right and would surely have meant trouble for the engines._
+_The **dust tail** is that big yellow thing to your upper right and would surely have meant trouble for the engines._
 
-You realize you narrowingly escaped a massive engine failure. - Phew
+You realize you narrowly escaped a massive engine failure.
 
-_Did you know the _ion tail_ always points away from the sun?_
+_Did you know the ion tail always points away from the sun?_
 
-You listen and nod with interest when suddenly..
+You listen and nod with interest when suddenly Caroline cries out!
 
-_You're not in the clear yet, Caroline suddenly cries out. We need to steer away from the comet itself. Quickly, make an evasive maneuver!_
+_You're not in the clear yet! We need to steer away from the comet itself. Quickly, make an evasive maneuver!_
 
-You grab the steering and you..
+You grab the steering column:
 
-<Page url="dust"  action="Make a right" condition="none" />
+<Page url="dust"  action="Steer right" condition="none" />
 <Page url="down"  action="Steer down" condition="none" />
-<Page url="continue"  action="Make a left" condition="none" />
+<Page url="continue"  action="Steer left" condition="none" />
