@@ -8,8 +8,6 @@ Your ship passes the ion tail and a blue shimmer lights up the cabin. Caroline H
 
 _"Good choice, the ion tail, allows us to pass without harm. Did you know it's also called "the gas tail"?_
 
-<img class="mb-10" style="display: inline" src="/images/comet.jpg" />
-
 Caroline Herschel points at the comet saying:
 
 _The _dust tail_ is that big yellow thing to your upper right and would surely have meant trouble for the engines._

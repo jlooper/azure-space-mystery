@@ -1,5 +1,5 @@
 ---
-backdrop: images/comet.jpg
+backdrop: images/dashboard.jpg
 ---
 
 # Collision
