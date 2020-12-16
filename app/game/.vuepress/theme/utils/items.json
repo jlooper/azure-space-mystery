@@ -19,5 +19,12 @@
 		"name": "metal frame",
 		"initialHide": true,
 		"url": "metal-frame.jpg"
+	},
+	{
+		"id": 4,
+		"instructions": "Gather the",
+		"name": "Solar panels",
+		"initialHide": true,
+		"url": "solar-panel.jpg"
 	}
 ]

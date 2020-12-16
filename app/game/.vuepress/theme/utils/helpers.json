@@ -16,5 +16,14 @@
 		"learn": "Meet Raymonde de Laroche",
 		"link": "https://en.wikipedia.org/wiki/Raymonde_de_Laroche",
 		"result": "I know you want to retrieve that frame, but it's too dangerous to leave the spaceship because of the radiation. We must use the space drone. To do this, use a secret code."
+	},
+	{
+		"id": 3,
+		"instructions": "Turn around",
+		"name": "Hypatia",
+		"initialHide": true,
+		"learn": "Meet Hypatia",
+		"link": "https://en.wikipedia.org/wiki/Hypatia",
+		"result": "In a few minutes the EMP will hit your ship and anything electronic will be no more. You need to find a way to protect the ship"
 	}
 ]
