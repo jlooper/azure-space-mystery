@@ -4,7 +4,7 @@ backdrop: images/dashboard.jpg
 
 # Solar panels
 
-You use the ships robotic arm to grab the panels and safely stove them away in the ships cargo hold.
+You use the ship's robotic arm to grab the panels and safely store them away in the ship's cargo hold.
 
 <Item id="4"/>
 
