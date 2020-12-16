@@ -16,7 +16,7 @@ The hologram of Hypatia fizzles out
 
 Suddenly, a memory from boot camp comes back to you.
 
-_Sergeant Meles said that the best way to protect against EMP is to layer what you want to protect in card board and aluminum._
+_Sergeant Meles said that the best way to protect against EMP is to layer what you want to protect in card board and aluminium._
 
 Where am I going to find all that? You rummage around all the compartments of the ship until you find large pieces of cardboard from the packing crates and a very large roll of aluminium. Oh yes!
 

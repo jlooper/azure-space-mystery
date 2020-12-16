@@ -4,7 +4,7 @@ backdrop: images/dashboard.jpg
 
 # Space walk
 
-You gear up in one of the new space suits borrowed from the [Artemis program](https://docs.microsoft.com/en-us/learn/modules/introduction-python-nasa/2-artemis). Then you crawl out the hatch of the ship and get to work, large swathes of cardboard first, followed by an aluminum cover.
+You gear up in one of the new space suits borrowed from the [Artemis program](https://docs.microsoft.com/en-us/learn/modules/introduction-python-nasa/2-artemis). Then you crawl out the hatch of the ship and get to work, large swathes of cardboard first, followed by an aluminium cover.
 
 Finally you step back in via the hatch back into the ship and wait for the wave to hit.
 
