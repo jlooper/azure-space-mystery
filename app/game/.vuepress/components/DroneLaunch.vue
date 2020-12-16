@@ -60,6 +60,7 @@
     </div>
     <span v-for="word in wordsArray">{{ word }}</span>
     <div class="text-center">
+      <p role="alert" class="pb-3">{{ message }}</p>
       <button
         type="button"
         class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
@@ -68,7 +69,7 @@
         {{ $t("try") }}
       </button>
     </div>
-    <p role="alert">{{ message }}</p>
+
     <p v-if="showNext">
       <router-link to="continue">{{ $t("continue") }}</router-link>
     </p>
@@ -94,6 +95,7 @@ export default {
   },
   methods: {
     count(item) {
+      this.message = "";
       //2,3,8,6,4,1,7,5
       //proper order is full, waning gibbous, third quarter, waning crescent, new, waxing crescent, first quarter, waxing gibbous
       this.numbersArray.push(item);
