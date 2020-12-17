@@ -2,9 +2,9 @@
 	{
 		"id": 1,
 		"instructions": "Pick up the",
-		"name": "key",
+		"name": "gimbal",
 		"initialHide": true,
-		"result": "You use your ship's robotic arm to pick up the key."
+		"result": "You grab the gimbal"
 	},
 	{
 		"id": 2,
@@ -22,9 +22,9 @@
 	},
 	{
 		"id": 4,
-		"instructions": "Gather the",
-		"name": "Solar panels",
+		"instructions": "Wind up the",
+		"name": "Tangled wire",
 		"initialHide": true,
-		"url": "solar-panel.jpg"
+		"url": "wire.jpg"
 	}
 ]

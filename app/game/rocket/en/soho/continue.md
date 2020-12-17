@@ -14,7 +14,7 @@ You caught the tool bag with your fingertips in the last second before it floate
 
 What is clinging to the tool bag? It is a _gimbal_, a piece from the ISS solar array wing.
 
-<Item id="4" />
+<Item id="1" />
 
 <Page url="/rocket/en" instructions="" action="Return to the start for a new mission!" condition="none" />
 
