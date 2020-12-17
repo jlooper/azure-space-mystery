@@ -22,9 +22,9 @@
 	},
 	{
 		"id": 4,
-		"instructions": "Gather the",
-		"name": "Solar panels",
+		"instructions": "Wind up the",
+		"name": "Tangled wire",
 		"initialHide": true,
-		"url": "solar-panel.jpg"
+		"url": "wire.jpg"
 	}
 ]

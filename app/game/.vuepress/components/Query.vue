@@ -3,30 +3,30 @@
     <button
       type="button"
       class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-      @click="test(10)"
+      @click="test(12)"
     >
-      10x
+      12
     </button>
     <button
       type="button"
       class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-      @click="test(100)"
+      @click="test(50)"
     >
-      100x
+      50
     </button>
     <button
       type="button"
       class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-      @click="test(522)"
+      @click="test(32)"
     >
-      522x
+      32
     </button>
     <button
       type="button"
       class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-      @click="test(383)"
+      @click="test(45)"
     >
-      383x
+      45
     </button>
 
     <p role="alert">{{ message }}</p>
@@ -54,7 +54,7 @@ export default {
   },
   methods: {
     test(value) {
-      if (value == 383) {
+      if (value == 32) {
         this.message = this.$t("pass");
         this.showNext = true;
       } else {
