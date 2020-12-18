@@ -2,7 +2,7 @@
 backdrop: images/bg.jpg
 ---
 
-# Space walk
+# Space walk
 
 You gather your gear for the repair and put on your space suit, open the hatch, and start your space walk.  
 
