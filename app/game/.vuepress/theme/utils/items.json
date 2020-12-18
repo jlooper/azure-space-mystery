@@ -4,27 +4,31 @@
 		"instructions": "Pick up the",
 		"name": "gimbal",
 		"initialHide": true,
-		"url": "gimbal.jpg"
+		"url": "gimbal.jpg",
+		"gameItem": "gimbal"
 	},
 	{
 		"id": 2,
 		"instructions": "Fetch the",
 		"name": "solar cell",
 		"initialHide": true,
-		"url": "solar-cell.jpg"
+		"url": "solar-cell.jpg",
+		"gameItem": "solar-cell"
 	},
 	{
 		"id": 3,
 		"instructions": "Collect the",
 		"name": "metal frame",
 		"initialHide": true,
-		"url": "metal-frame.jpg"
+		"url": "metal-frame.jpg",
+		"gameItem": "metal-frame"
 	},
 	{
 		"id": 4,
 		"instructions": "Wind up the",
 		"name": "tangled wire",
 		"initialHide": true,
-		"url": "wire.jpg"
+		"url": "wire.jpg",
+		"gameItem": "wire"
 	}
 ]
