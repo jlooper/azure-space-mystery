@@ -6,7 +6,7 @@ backdrop: images/solar-cell.jpg
 
 By the badgers nose, that was a close call. You manage to steer away from the comet, just in time.
 
-Floating just before you is the _monocrystalline solar cell_. This must be a part of the ISS's broken element! You reach out with a robotic arm and pick it up. Success!
+Floating just before you is a _solar cell_. This must be a part of the ISS's broken wing! You reach out with a robotic arm and pick it up. Success!
 
 <Item id="2"/>
 

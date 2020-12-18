@@ -9,7 +9,7 @@
 	{
 		"id": 2,
 		"instructions": "Fetch the",
-		"name": "monocrystalline solar cell",
+		"name": "solar cell",
 		"initialHide": true,
 		"url": "solar-cell.jpg"
 	},
