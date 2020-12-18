@@ -1,6 +1,7 @@
 export default {
 	en: {
 		language: 'Language',
+		code: 'Code',
 		pass: 'Well done!',
 		fail: 'Sorry, try again',
 		try: 'Submit',
@@ -16,6 +17,7 @@ export default {
 	},
 	fr: {
 		language: 'Langue',
+		code: 'Code',
 		pass: 'Bien fait!',
 		fail: 'Désolé, réessayez',
 		try: 'Soumettre',
@@ -31,6 +33,8 @@ export default {
 	},
 	es: {
 		language: 'Idioma',
+		code: 'Code',
+
 		pass: '¡Bien hecho!',
 		fail: 'Lo siento, intenta de nuevo',
 		try: 'Enviar',
@@ -46,6 +50,8 @@ export default {
 	},
 	pt: {
 		language: 'Língua',
+		code: 'Code',
+
 		pass: 'Parabéns!',
 		fail: 'Desculpe, tente novamente',
 		try: 'Enviar',

@@ -8,4 +8,4 @@ The dust from the comet gets sucked into the engine. The dashboard starts blinki
 
 ...your mission is over!
 
-<Page url="/rocket/en/" instructions="" action="Return to the start" condition="none" />
+<Page url="/rocket/en/1" instructions="" action="Return to the start" condition="none" />

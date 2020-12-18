@@ -6,7 +6,12 @@
         precise and accurate if you don't want us to burn up!
       </p>
     </blockquote>
-    <img class="mb-10" style="display: inline" src="/images/caroline.jpg" />
+    <img
+      alt="Caroline Herschel"
+      class="mb-10"
+      style="display: inline"
+      src="/images/caroline.jpg"
+    />
   </div>
 </template>
 

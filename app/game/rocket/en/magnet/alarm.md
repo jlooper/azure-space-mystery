@@ -3,7 +3,7 @@ backdrop: images/bg.jpg
 ---
 # An Alarm
 
-You prepare to page your team members to tell them about your finding and to help you prepare for a spacewalk. You need to pick up that metal frame.  
+You prepare to set course for the object and prepare for a spacewalk to pick it up.
 
 Suddenly, you hear an alarm.  
 

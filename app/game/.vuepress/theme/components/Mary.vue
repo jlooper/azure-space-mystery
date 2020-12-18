@@ -1,9 +1,17 @@
 <template>
   <div>
     <blockquote class="speech-bubble">
-      <p>Can I help you?</p>
-      <cite>Mary Somerville</cite>
+      <p>
+        Oh, look at those lovely meteoroids! Perhaps you can collect some with a
+        magnet, since they often contain iron and nickel? They are so
+        interesting - I even have an asteroid named after me!
+      </p>
     </blockquote>
-    <img src="/images/mary.jpg" />
+    <img
+      alt="Mary Somerville"
+      class="mb-10"
+      style="display: inline"
+      src="/images/mary.jpg"
+    />
   </div>
 </template>

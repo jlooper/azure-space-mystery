@@ -7,6 +7,11 @@
         unfurling?
       </p>
     </blockquote>
-    <img class="mb-10" style="display: inline" src="/images/hypatia.jpg" />
+    <img
+      alt="Hypatia"
+      class="mb-10"
+      style="display: inline"
+      src="/images/hypatia.jpg"
+    />
   </div>
 </template>
