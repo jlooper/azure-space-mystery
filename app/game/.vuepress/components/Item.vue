@@ -17,7 +17,14 @@
 </template>
 <script>
 const items = require("@theme/utils/items.json");
-import { addItem } from "@theme/utils";
+import {
+  addItem,
+  hasItem,
+  getUID,
+  getSessionTicket,
+  getLocale,
+} from "@theme/utils";
+import axios from "axios";
 import { emitter } from "@theme/utils/emitter";
 
 export default {
@@ -47,7 +54,16 @@ export default {
       var jsonData = {};
       var columnName = item.id;
       jsonData[columnName] = item.gameItem;
-
+      axios
+        .post("https://maya-mystery-api.azurewebsites.net/api/updateData", {
+          Data: jsonData,
+        })
+        .then((response) => {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
       let addOk = confirm("Collect item?");
       if (addOk) {
         addItem(item.id);
