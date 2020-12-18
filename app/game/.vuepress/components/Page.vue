@@ -8,6 +8,14 @@
 </template>
 <script>
 import { emitter } from "@theme/utils/emitter";
+import {
+  hasItem,
+  getUID,
+  setUID,
+  hasUID,
+  setSessionTicket,
+} from "@theme/utils";
+import axios from "axios";
 
 export default {
   props: ["url", "action", "condition", "instructions"],
@@ -33,7 +41,9 @@ export default {
   created() {
     //initially, set home page to show followup
     this.getInventory(1);
-
+    if (!hasUID()) {
+      setUID();
+    }
     emitter.on("item_added", (id) => {
       this.getInventory(id);
     });
@@ -41,6 +51,20 @@ export default {
     emitter.on("showResult", (id) => {
       this.getInventory(id);
     });
+    axios
+      .post("https://space-mystery-api.azurewebsites.net/api/loginAnon", {
+        id: getUID(),
+        createAccount: hasUID(),
+      })
+      .then((response) => {
+        console.log(response);
+        if (response.data.errorMessage == null) {
+          setSessionTicket(response.data.SessionTicket);
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   },
 };
 </script>
