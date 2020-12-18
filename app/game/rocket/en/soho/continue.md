@@ -16,5 +16,5 @@ What is clinging to the tool bag? It is a _gimbal_, a piece from the ISS solar a
 
 <Item id="1" />
 
-<Page url="/rocket/en" instructions="" action="Return to the start for a new mission!" condition="none" />
+<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" />
 

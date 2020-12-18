@@ -23,7 +23,7 @@
 	{
 		"id": 4,
 		"instructions": "Wind up the",
-		"name": "Tangled wire",
+		"name": "tangled wire",
 		"initialHide": true,
 		"url": "wire.jpg"
 	}

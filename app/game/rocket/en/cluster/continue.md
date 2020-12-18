@@ -8,4 +8,4 @@ You use the ship's robotic arm to reach out and grab the tangled wire. It takes 
 
 <Item id="4"/>
 
-<Page url="/rocket/en" instructions="" action="Return to the start for a new mission!" condition="none" />
+<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" />

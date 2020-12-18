@@ -10,4 +10,4 @@ Floating just before you is a _solar cell_. This must be a part of the ISS's bro
 
 <Item id="2"/>
 
-<Page url="/rocket/en" instructions="" action="Return to the start for a new mission!" condition="none" />
+<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" />
