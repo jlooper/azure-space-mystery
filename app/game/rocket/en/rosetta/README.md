@@ -1,10 +1,12 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/dashboard.jpg
 ---
 
 # Mission: Rosetta
 
 You are traveling through space, searching the black infinity for pieces of the solar array, when suddenly you see a bright object in the distance.
+
+<img class="mb-10" style="display: inline" src="/images/comet.jpg" />
 
 You hear a voice behind you.
 

@@ -16,17 +16,17 @@
 
     <div v-on:click="openNav()" class="lg:hidden">
       <button
-        class="menu-button text-white flex m-5 px-3 py-2 border hover:text-yellow hover:border-yellow"
+        class="nav-btn menu-button flex m-5 px-3 py-2 border hover:text-yellow hover:border-yellow"
       >
         <svg
           class="fill-current h-3 w-3"
-          viewBox="0 0 20 20"
+          viewBox="0 0 32 32"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <title>Inventory</title>
+          <title>Rocket</title>
           <path
-            d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-          />
+            d="M22 2l-10 10h-6l-6 8c0 0 6.357-1.77 10.065-0.94l-10.065 12.94 13.184-10.255c1.839 4.208-1.184 10.255-1.184 10.255l8-6v-6l10-10 2-10-10 2z"
+          ></path>
         </svg>
       </button>
     </div>
@@ -71,5 +71,11 @@ export default {
 <style scoped>
 .markdown-body a {
   text-decoration: none;
+}
+.fill-current {
+  color: white;
+}
+.nav-btn {
+  border-color: white;
 }
 </style>

@@ -7,5 +7,32 @@
 		"learn": "Meet Caroline Herschel",
 		"link": "https://en.wikipedia.org/wiki/Caroline_Herschel",
 		"result": "Can you see the tail? The comet is on a trajectory – and so are we. We need to avoid hitting both the comet and one of the tails, while we can go through the other."
+	},
+	{
+		"id": 2,
+		"instructions": "Turn around",
+		"name": "Raymonde",
+		"initialHide": true,
+		"learn": "Meet Raymonde de Laroche",
+		"link": "https://en.wikipedia.org/wiki/Raymonde_de_Laroche",
+		"result": "I know you want to retrieve that frame, but it's too dangerous to leave the spaceship because of the radiation. We must use the space drone. To do this, use a secret code."
+	},
+	{
+		"id": 3,
+		"instructions": "Turn around",
+		"name": "Hypatia",
+		"initialHide": true,
+		"learn": "Meet Hypatia",
+		"link": "https://en.wikipedia.org/wiki/Hypatia",
+		"result": "It looks almost like a wire that is untwisting itself. Let me help you fetch it. Perhaps you can solve an equation for me."
+	},
+	{
+		"id": 4,
+		"instructions": "Turn around",
+		"name": "Mary",
+		"initialHide": true,
+		"learn": "Meet Mary Somerville",
+		"link": "https://en.wikipedia.org/wiki/Mary_Somerville",
+		"result": "I am ecstatic to help you, my dear. You need to figure out if there is going to be a geomagnetic storm on the day of the spacewalk. Ensure you check the day of your planned walk."
 	}
 ]

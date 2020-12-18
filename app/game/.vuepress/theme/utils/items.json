@@ -2,14 +2,29 @@
 	{
 		"id": 1,
 		"instructions": "Pick up the",
-		"name": "key",
+		"name": "gimbal",
 		"initialHide": true,
-		"result": "You use your ship's robotic arm to pick up the key."
+		"url": "gimbal.jpg"
 	},
 	{
 		"id": 2,
 		"instructions": "Fetch the",
-		"name": "monocrystalline solar cell",
-		"initialHide": true
+		"name": "solar cell",
+		"initialHide": true,
+		"url": "solar-cell.jpg"
+	},
+	{
+		"id": 3,
+		"instructions": "Collect the",
+		"name": "metal frame",
+		"initialHide": true,
+		"url": "metal-frame.jpg"
+	},
+	{
+		"id": 4,
+		"instructions": "Wind up the",
+		"name": "Tangled wire",
+		"initialHide": true,
+		"url": "wire.jpg"
 	}
 ]
