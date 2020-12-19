@@ -74,6 +74,7 @@ export default {
   },
   created() {
     this.$i18n.locale = getLocale();
+    emitter.on("lang_changed", (lang) => (this.$i18n.locale = lang));
   },
 };
 </script>

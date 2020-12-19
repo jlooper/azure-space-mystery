@@ -37,7 +37,7 @@
 </template>
 <script>
 import messages from "@theme/translations/misc.js";
-import { getLocale } from "@theme/utils/helpers";
+import { getLocale } from "@theme/utils";
 import { emitter } from "@theme/utils/emitter";
 
 export default {

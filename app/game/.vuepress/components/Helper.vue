@@ -9,7 +9,7 @@
         togglePopover(item);
       "
     >
-      {{ getDetails.instructions }}
+      {{ getLocalizedInstructions }}
     </button>
     <div
       class="m-3 p-3 shadow-2xl rounded-lg border-solid border-2 border-light-gray"
@@ -26,11 +26,11 @@
 
       <em class="font-thin"
         ><a :href="getDetails.link" target="_blank">{{
-          getDetails.learn
+          getLocalizedLearn
         }}</a></em
       >
 
-      <p class="font-bold" v-if="showResult">{{ getDetails.result }}</p>
+      <p class="font-bold" v-if="showResult">{{ getLocalizedResult }}</p>
     </div>
   </div>
 </template>
@@ -55,6 +55,46 @@ export default {
       let item = helpers.find((row) => row.id == this.id);
       item = item || { name: "not set" };
       return item;
+    },
+    getLocalizedInstructions() {
+      let currItem = helpers.find((row) => row.id == this.id);
+      if (this.$i18n.locale == "es") {
+        currItem = currItem.instructions.es.instruction;
+      } else if (this.$i18n.locale == "pt") {
+        currItem = currItem.instructions.pt.instruction;
+      } else if (this.$i18n.locale == "fr") {
+        currItem = currItem.instructions.fr.instruction;
+      } else {
+        currItem = currItem.instructions.en.instruction;
+      }
+      return currItem;
+    },
+    getLocalizedResult() {
+      let currItem = helpers.find((row) => row.id == this.id);
+      if (this.$i18n.locale == "es") {
+        currItem = currItem.result.es.result;
+      } else if (this.$i18n.locale == "pt") {
+        currItem = currItem.result.pt.result;
+      } else if (this.$i18n.locale == "fr") {
+        currItem = currItem.result.fr.result;
+      } else {
+        currItem = currItem.result.en.result;
+      }
+      return currItem;
+    },
+
+    getLocalizedLearn() {
+      let currItem = helpers.find((row) => row.id == this.id);
+      if (this.$i18n.locale == "es") {
+        currItem = currItem.learn.es.learn;
+      } else if (this.$i18n.locale == "pt") {
+        currItem = currItem.learn.pt.learn;
+      } else if (this.$i18n.locale == "fr") {
+        currItem = currItem.learn.fr.learn;
+      } else {
+        currItem = currItem.learn.en.learn;
+      }
+      return currItem;
     },
 
     getDetails() {

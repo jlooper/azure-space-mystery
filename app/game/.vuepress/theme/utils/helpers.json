@@ -1,38 +1,194 @@
 [
 	{
 		"id": 1,
-		"instructions": "Turn around",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Turn around"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
 		"name": "Caroline",
 		"initialHide": true,
-		"learn": "Meet Caroline Herschel",
-		"link": "https://en.wikipedia.org/wiki/Caroline_Herschel",
-		"result": "Can you see the tails? The comet is on a trajectory – and so are we. We need to avoid hitting both the comet and one of the tails, while we can go through the other."
+		"learn": {
+			"es": {
+				"learn": "xxx"
+			},
+			"en": {
+				"learn": "Meet Caroline Herschel"
+			},
+			"fr": {
+				"learn": "xxx"
+			},
+			"pt": {
+				"learn": "xxx"
+			}
+		},
+		"link": "https://wikipedia.org/wiki/Caroline_Herschel",
+		"result": {
+			"es": {
+				"result": "xxx"
+			},
+			"en": {
+				"result": "Can you see the tails? The comet is on a trajectory – and so are we. We need to avoid hitting both the comet and one of the tails, while we can go through the other."
+			},
+			"fr": {
+				"result": "xxx"
+			},
+			"pt": {
+				"result": "xxx"
+			}
+		}
 	},
 	{
 		"id": 2,
-		"instructions": "Turn around",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Turn around"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
 		"name": "Raymonde",
 		"initialHide": true,
-		"learn": "Meet Raymonde de Laroche",
-		"link": "https://en.wikipedia.org/wiki/Raymonde_de_Laroche",
-		"result": "I know you want to retrieve that frame, but it's too dangerous to leave the spaceship because of the radiation. We must use the space drone. To do this, use a secret code."
+		"learn": {
+			"es": {
+				"learn": "xxx"
+			},
+			"en": {
+				"learn": "Meet Raymonde de Laroche"
+			},
+			"fr": {
+				"learn": "xxx"
+			},
+			"pt": {
+				"learn": "xxx"
+			}
+		},
+		"link": "https://wikipedia.org/wiki/Raymonde_de_Laroche",
+		"result": {
+			"es": {
+				"result": "xxx"
+			},
+			"en": {
+				"result": "I know you want to retrieve that frame, but it's too dangerous to leave the spaceship because of the radiation. We must use the space drone. To do this, use a secret code."
+			},
+			"fr": {
+				"result": "xxx"
+			},
+			"pt": {
+				"result": "xxx"
+			}
+		}
 	},
 	{
 		"id": 3,
-		"instructions": "Turn around",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Turn around"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
 		"name": "Hypatia",
 		"initialHide": true,
-		"learn": "Meet Hypatia",
-		"link": "https://en.wikipedia.org/wiki/Hypatia",
-		"result": "It looks almost like a wire that is untwisting itself. Let me help you fetch it. Perhaps you can solve an equation for me."
+		"learn": {
+			"es": {
+				"learn": "xxx"
+			},
+			"en": {
+				"learn": "Meet Hypatia"
+			},
+			"fr": {
+				"learn": "xxx"
+			},
+			"pt": {
+				"learn": "xxx"
+			}
+		},
+		"link": "https://wikipedia.org/wiki/Hypatia",
+		"result": {
+			"es": {
+				"result": "xxx"
+			},
+			"en": {
+				"result": "It looks almost like a wire that is untwisting itself. Let me help you fetch it. Perhaps you can solve an equation for me."
+			},
+			"fr": {
+				"result": "xxx"
+			},
+			"pt": {
+				"result": "xxx"
+			}
+		}
 	},
 	{
 		"id": 4,
-		"instructions": "Turn around",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Turn around"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
 		"name": "Mary",
 		"initialHide": true,
-		"learn": "Meet Mary Somerville",
-		"link": "https://en.wikipedia.org/wiki/Mary_Somerville",
-		"result": "Why don't you extend your robotic arm and try to collect some?"
+		"learn": {
+			"es": {
+				"learn": "xxx"
+			},
+			"en": {
+				"learn": "Meet Mary Somerville"
+			},
+			"fr": {
+				"learn": "xxx"
+			},
+			"pt": {
+				"learn": "xxx"
+			}
+		},
+		"link": "https://wikipedia.org/wiki/Mary_Somerville",
+		"result": {
+			"es": {
+				"result": "xxx"
+			},
+			"en": {
+				"result": "Why don't you extend your robotic arm and try to collect some?"
+			},
+			"fr": {
+				"result": "xxx"
+			},
+			"pt": {
+				"result": "xxx"
+			}
+		}
 	}
 ]

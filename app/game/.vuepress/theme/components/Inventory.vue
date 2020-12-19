@@ -1,22 +1,20 @@
 <template>
   <div class="markdown-body">
     <p class="text-2xl pb-5 pt-5 ms-5 text-sans text-white text-start">
-      Collection Bay
+      {{ $t("inventory") }}
     </p>
     <div class="p-5 text-start">
       <div v-if="inventory.length == 0">
-        <span class="text-white text-start"
-          >Sorry, there is nothing to show here.</span
-        >
+        <span class="text-white text-start">{{ $t("noinventory") }}</span>
       </div>
       <div v-else>
         <div class="wrapper">
           <div v-for="item in inventory" class="item">
             <div class="inventoryItem">
               <span class="container" width="200px">
-                <img :src="getUrl(item)" :alt="getName(item).name" />
+                <img :src="getUrl(item)" :alt="getLocalizedName(item)" />
               </span>
-              <p class="caption">{{ getName(item).name }}</p>
+              <p class="caption">{{ getLocalizedName(item) }}</p>
             </div>
           </div>
         </div>
@@ -25,13 +23,17 @@
   </div>
 </template>
 <script>
-import { getItems } from "@theme/utils";
+import { getItems, getLocale } from "@theme/utils";
 const items = require("@theme/utils/items.json");
+import messages from "@theme/translations/misc.js";
 import { emitter } from "@theme/utils/emitter";
+import { i18n } from "@theme/utils/i18n";
 
 export default {
   name: "Inventory",
-
+  i18n: {
+    messages,
+  },
   data() {
     let obj = { inventory: [] };
     return obj;
@@ -41,11 +43,19 @@ export default {
       var ids = getItems();
       this.inventory = ids.map((id) => items.find((item) => item.id == id));
     },
-    getName(item) {
-      if (!item.name) {
-        return "";
-      }
+
+    getLocalizedName(item) {
       let currItem = item;
+
+      if (this.$i18n.locale == "es") {
+        currItem = currItem.name.es.name;
+      } else if (this.$i18n.locale == "pt") {
+        currItem = currItem.name.pt.name;
+      } else if (this.$i18n.locale == "fr") {
+        currItem = currItem.name.fr.name;
+      } else {
+        currItem = currItem.name.en.name;
+      }
       return currItem;
     },
     getUrl(item) {
@@ -57,9 +67,13 @@ export default {
   },
   created() {
     this.showInventoryItems();
+    this.$i18n.locale = getLocale();
 
     emitter.on("item_added", (id) => {
       this.showInventoryItems();
+    });
+    emitter.on("lang_changed", (lang) => {
+      this.$i18n.locale = lang;
     });
   },
 };

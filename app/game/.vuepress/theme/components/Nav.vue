@@ -43,6 +43,8 @@
 
 <script>
 import Inventory from "@theme/components/Inventory.vue";
+import { setLocale, getLocale } from "@theme/utils";
+import { emitter } from "@theme/utils/emitter";
 
 export default {
   name: "Nav",
@@ -62,6 +64,8 @@ export default {
       }
     },
     goHome() {
+      setLocale("en");
+      emitter.emit("lang_changed", "en");
       this.$router.push({ path: "/" });
     },
   },

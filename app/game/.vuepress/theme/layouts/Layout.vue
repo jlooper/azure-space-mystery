@@ -32,9 +32,18 @@ import Nav from "@theme/components/Nav.vue";
 import BasicLayout from "@theme/layouts/BasicLayout.vue";
 import Inventory from "@theme/components/Inventory.vue";
 import Footer from "@theme/components/Footer.vue";
-import { getLocale, setLocale } from "@theme/utils";
+import {
+  hasItem,
+  getUID,
+  setUID,
+  hasUID,
+  setSessionTicket,
+  getLocale,
+  setLocale,
+} from "@theme/utils";
 import { emitter } from "@theme/utils/emitter";
 import { i18n } from "@theme/utils/i18n";
+import axios from "axios";
 
 export default {
   components: {
@@ -50,7 +59,27 @@ export default {
       dir: "ltr",
     };
   },
-
+  methods: {
+    login() {
+      if (!hasUID()) {
+        setUID();
+      }
+      axios
+        .post("https://space-mystery-api.azurewebsites.net/api/loginAnon", {
+          id: getUID(),
+          createAccount: hasUID(),
+        })
+        .then((response) => {
+          console.log(response);
+          if (response.data.errorMessage == null) {
+            setSessionTicket(response.data.SessionTicket);
+          }
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    },
+  },
   computed: {
     layout() {
       return this.$page.frontmatter.layout || "BasicLayout";
@@ -70,6 +99,7 @@ export default {
     emitter.on("lang_changed", (lang) => {
       this.$i18n.locale = lang;
     });
+    this.login();
   },
   mounted() {
     emitter.on("lang_changed", (lang) => {

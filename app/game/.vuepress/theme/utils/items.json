@@ -1,30 +1,138 @@
 [
 	{
 		"id": 1,
-		"instructions": "Pick up the",
-		"name": "gimbal",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Pick up the"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
+		"name": {
+			"es": {
+				"name": "xxx"
+			},
+			"en": {
+				"name": "gimbal"
+			},
+			"fr": {
+				"name": "xxx"
+			},
+			"pt": {
+				"name": "xxx"
+			}
+		},
 		"initialHide": true,
-		"url": "gimbal.jpg"
+		"url": "gimbal.jpg",
+		"gameItem": "gimbal"
 	},
 	{
 		"id": 2,
-		"instructions": "Fetch the",
-		"name": "solar cell",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Fetch the"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
+		"name": {
+			"es": {
+				"name": "xxx"
+			},
+			"en": {
+				"name": "solar cell"
+			},
+			"fr": {
+				"name": "xxx"
+			},
+			"pt": {
+				"name": "xxx"
+			}
+		},
 		"initialHide": true,
-		"url": "solar-cell.jpg"
+		"url": "solar-cell.jpg",
+		"gameItem": "solar-cell"
 	},
 	{
 		"id": 3,
-		"instructions": "Collect the",
-		"name": "metal frame",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Collect the"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
+		"name": {
+			"es": {
+				"name": "xxx"
+			},
+			"en": {
+				"name": "metal frame"
+			},
+			"fr": {
+				"name": "xxx"
+			},
+			"pt": {
+				"name": "xxx"
+			}
+		},
 		"initialHide": true,
-		"url": "metal-frame.jpg"
+		"url": "metal-frame.jpg",
+		"gameItem": "metal-frame"
 	},
 	{
 		"id": 4,
-		"instructions": "Wind up the",
-		"name": "tangled wire",
+		"instructions": {
+			"es": {
+				"instruction": "xxx"
+			},
+			"en": {
+				"instruction": "Wind up the"
+			},
+			"fr": {
+				"instruction": "xxx"
+			},
+			"pt": {
+				"instruction": "xxx"
+			}
+		},
+		"name": {
+			"es": {
+				"name": "xxx"
+			},
+			"en": {
+				"name": "tangled wire"
+			},
+			"fr": {
+				"name": "xxx"
+			},
+			"pt": {
+				"name": "xxx"
+			}
+		},
 		"initialHide": true,
-		"url": "wire.jpg"
+		"url": "wire.jpg",
+		"gameItem": "wire"
 	}
 ]
