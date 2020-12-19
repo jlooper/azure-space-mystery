@@ -2,9 +2,7 @@
   <div>
     <blockquote class="speech-bubble">
       <p>
-        Oh, look at those lovely meteoroids! Perhaps you can collect some with a
-        magnet, since they often contain iron and nickel? They are so
-        interesting - I even have an asteroid named after me!
+        {{ $t("maryquote") }}
       </p>
     </blockquote>
     <img
@@ -15,3 +13,24 @@
     />
   </div>
 </template>
+<script>
+import { getLocale } from "@theme/utils";
+import messages from "@theme/translations/misc.js";
+import { emitter } from "@theme/utils/emitter";
+import { i18n } from "@theme/utils/i18n";
+
+export default {
+  name: "Mary",
+  i18n: {
+    messages,
+  },
+
+  created() {
+    this.$i18n.locale = getLocale();
+    emitter.on("lang_changed", (lang) => {
+      this.$i18n.locale = lang;
+    });
+  },
+};
+</script>
+

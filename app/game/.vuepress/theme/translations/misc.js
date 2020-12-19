@@ -1,7 +1,18 @@
 export default {
 	en: {
 		language: 'Language',
+		inventory: 'Collection Bay',
+		noinventory: 'No items collected yet',
+		carolinequote:
+			"That's a comet! It's on a collision course. You need to be quick, precise and accurate if you don't want us to burn up!",
+		maryquote:
+			'Oh, look at those lovely meteoroids! Perhaps you can collect some with a magnet, since they often contain iron and nickel? They are so interesting - I even have an asteroid named after me!',
+		raymondequote:
+			"You're very close to the South Atlantic Anomaly. The radiation intensity is higher in this region. It is produced by a dip in the Earth's magnetic field. The anomaly creates interferences with your onboard computers. If a satellite is hit by a high-energy proton, it can lead to temporary or permanent damage. We must move on!",
+		hypatiaquote:
+			'Greetings, apprentice! I see you are on a quest to fetch that strange piece of metal. How odd that it seems to be growing longer. Is it unfurling?',
 		code: 'Code',
+		collect: 'Collect item?',
 		pass: 'Well done!',
 		fail: 'Sorry, try again',
 		try: 'Submit',
@@ -17,7 +28,14 @@ export default {
 	},
 	fr: {
 		language: 'Langue',
+		inventory: 'Collection Bay',
+		noinventory: 'No items collected yet',
+		carolinequote: 'xxx',
+		maryquote: 'xxx',
+		raymondequote: 'xxx',
+		hypatiaquote: 'xxx',
 		code: 'Code',
+		collect: 'Collect item?',
 		pass: 'Bien fait!',
 		fail: 'Désolé, réessayez',
 		try: 'Soumettre',
@@ -33,8 +51,14 @@ export default {
 	},
 	es: {
 		language: 'Idioma',
+		inventory: 'Collection Bay',
+		noinventory: 'No items collected yet',
+		carolinequote: 'xxx',
+		maryquote: 'xxx',
+		raymondequote: 'xxx',
+		hypatiaquote: 'xxx',
 		code: 'Code',
-
+		collect: 'Collect item?',
 		pass: '¡Bien hecho!',
 		fail: 'Lo siento, intenta de nuevo',
 		try: 'Enviar',
@@ -50,8 +74,14 @@ export default {
 	},
 	pt: {
 		language: 'Língua',
+		inventory: 'Collection Bay',
+		noinventory: 'No items collected yet',
+		carolinequote: 'xxx',
+		maryquote: 'xxx',
+		raymondequote: 'xxx',
+		hypatiaquote: 'xxx',
 		code: 'Code',
-
+		collect: 'Collect item?',
 		pass: 'Parabéns!',
 		fail: 'Desculpe, tente novamente',
 		try: 'Enviar',
