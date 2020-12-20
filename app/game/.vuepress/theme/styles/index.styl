@@ -3,15 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-//override toast background
 
-.Vue-Toastification__toast--default {
-  background-color: white !important;
-  color: black;
-}
-.Vue-Toastification__close-button {
-  color: black 
-}
 //avatars
 
 .speech-bubble {
@@ -55,6 +47,8 @@
 
 
 @font-face {
+    font-family: 'New';
+    src: url('/AzureSpaceMystery/fonts/whitrabt.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -74,13 +68,17 @@ body  {
 
 a
 h1, h2, h3, h4, p {
-    font-family: sans-serif;
+    font-family: 'New', sans-serif;
+    src: url('/AzureSpaceMystery/fonts/whitrabt.woff') format('woff');
+    
 }
 
 .markdown-body {
-   background: rgba(255, 255, 255,.1);
-   height: 100%;
-   
+  background: rgba(255, 255, 255,.1);
+  height: 100%;
+  font-family: 'New', sans-serif;
+  src: url('/AzureSpaceMystery/fonts/whitrabt.woff') format('woff');
+    
 }
 
 

@@ -220,7 +220,7 @@ module.exports = {
 			default: '1',
 		},
 		fontFamily: {
-			sans: ['HelveticaNeue'],
+			sans: ['"New"'],
 			serif: ['Georgia'],
 			mono: ['monospace'],
 		},
