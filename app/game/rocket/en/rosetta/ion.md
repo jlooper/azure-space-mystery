@@ -1,5 +1,5 @@
 ---
-backdrop: images/comet.jpg
+backdrop: images/banner_4.png
 ---
 
 # To the Ion Tail

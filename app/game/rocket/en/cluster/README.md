@@ -1,5 +1,5 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/banner_2.png
 ---
 # Mission: Cluster
 

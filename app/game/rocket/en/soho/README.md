@@ -1,10 +1,10 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/banner_1.png
 ---
 
-# Mission: Soho
+# Mission: SOHO
 
-You are just finishing your lunch when you hear a series of sharp noises.
+You are startled when you hear a series of sharp noises.
 
 Looking out of your window, you see oddly-shaped objects whizzing by your spaceship. Looks like you are flying into a small cluster of floating space rocks, or meteroids. It looks like they are hitting your ship.
 

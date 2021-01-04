@@ -8,7 +8,7 @@ export default {
 		maryquote:
 			'Oh, look at those lovely meteoroids! Perhaps you can collect some with a magnet, since they often contain iron and nickel? They are so interesting - I even have an asteroid named after me!',
 		raymondequote:
-			"You're very close to the South Atlantic Anomaly. The radiation intensity is higher in this region. It is produced by a dip in the Earth's magnetic field. The anomaly creates interferences with your onboard computers. If a satellite is hit by a high-energy proton, it can lead to temporary or permanent damage. We must move on!",
+			"You're very close to the South Atlantic Anomaly. The radiation intensity is higher in this region. It is produced by a dip in the Earth's magnetic field. The anomaly creates interferences with your onboard computers. If a sensor is hit by a high-energy proton, it can lead to temporary or permanent damage. We must move on!",
 		hypatiaquote:
 			'Greetings, apprentice! I see you are on a quest to fetch that strange piece of metal. How odd that it seems to be growing longer. Is it unfurling?',
 		code: 'Code',

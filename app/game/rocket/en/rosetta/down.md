@@ -1,5 +1,5 @@
 ---
-backdrop: images/dashboard.jpg
+backdrop: images/banner_5.png
 ---
 
 # Collision

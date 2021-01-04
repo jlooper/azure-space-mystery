@@ -28,7 +28,6 @@
       >
         🌑
       </button>
-
       <button
         type="button"
         class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
@@ -96,8 +95,7 @@ export default {
   methods: {
     count(item) {
       this.message = "";
-      //2,3,8,6,4,1,7,5
-      //proper order is full, waning gibbous, third quarter, waning crescent, new, waxing crescent, first quarter, waxing gibbous
+      //4,6,7,5,2,3,8,1
       this.numbersArray.push(item);
       console.log(item);
       let phase = "";
@@ -123,7 +121,7 @@ export default {
     },
     test() {
       if (
-        JSON.stringify([2, 3, 8, 6, 4, 1, 7, 5]) ===
+        JSON.stringify([4, 6, 7, 5, 2, 3, 8, 1]) ===
         JSON.stringify(this.numbersArray)
       ) {
         this.message = this.$t("pass");

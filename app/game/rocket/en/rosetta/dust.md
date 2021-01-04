@@ -1,10 +1,10 @@
 ---
-backdrop: images/comet.jpg
+backdrop: images/banner_5.png
 ---
 
-# Engine failure
+# Systems failure
 
-The dust from the comet gets sucked into the engine. The dashboard starts blinking red. One after the other, the engines fail. Your can no longer maneuver the ship. Your ship is left in an orbit rotating the earth, just like one of many thousands of satellites.  
+The dust from the comet sandblasts your ship. The dashboard starts blinking red as external sensors start to fail. You can no longer maneuver the ship. Your ship is left in an orbit rotating the earth, just like one of many thousands of satellites.  
 
 ...your mission is over!
 

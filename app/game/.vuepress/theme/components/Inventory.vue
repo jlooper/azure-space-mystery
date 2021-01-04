@@ -3,18 +3,18 @@
     <p class="text-2xl pb-5 pt-5 ms-5 text-sans text-white text-start">
       {{ $t("inventory") }}
     </p>
-    <div class="p-5 text-start">
+    <div class="p-5">
       <div v-if="inventory.length == 0">
         <span class="text-white text-start">{{ $t("noinventory") }}</span>
       </div>
       <div v-else>
         <div class="wrapper">
           <div v-for="item in inventory" class="item">
-            <div class="inventoryItem">
-              <span class="container" width="200px">
-                <img :src="getUrl(item)" :alt="getLocalizedName(item)" />
+            <div class="bg-white text-center rounded mb-5">
+              <span class="container">
+                <img class="inline ":src="getUrl(item)" :alt="getLocalizedName(item)" />
               </span>
-              <p class="caption">{{ getLocalizedName(item) }}</p>
+              <p class="pt-0">{{ getLocalizedName(item) }}</p>
             </div>
           </div>
         </div>
@@ -78,14 +78,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-.inventoryItem {
-  text-align: center;
-  background-color: white;
-  padding: 1em;
-  border-radius: 2px;
-}
-.caption {
-  padding-top: 0px;
-}
-</style>

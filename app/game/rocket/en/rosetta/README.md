@@ -1,12 +1,10 @@
 ---
-backdrop: images/dashboard.jpg
+backdrop: images/banner_5.png
 ---
 
 # Mission: Rosetta
 
-You are traveling through space, searching the black infinity for pieces of the wing, when suddenly you see a bright object in the distance.
-
-<img alt="pixel image of a comet" class="mb-10 mt-10" style="display: inline" src="/images/comet.jpg" />
+You are traveling through space, searching for pieces of the wing, when suddenly you see a bright object in the distance.
 
 You hear a voice behind you.
 

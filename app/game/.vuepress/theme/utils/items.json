@@ -30,7 +30,7 @@
 			}
 		},
 		"initialHide": true,
-		"url": "gimbal.jpg",
+		"url": "gimbal.png",
 		"gameItem": "gimbal"
 	},
 	{
@@ -64,7 +64,7 @@
 			}
 		},
 		"initialHide": true,
-		"url": "solar-cell.jpg",
+		"url": "solarcell.png",
 		"gameItem": "solar-cell"
 	},
 	{
@@ -98,7 +98,7 @@
 			}
 		},
 		"initialHide": true,
-		"url": "metal-frame.jpg",
+		"url": "metalframe.png",
 		"gameItem": "metal-frame"
 	},
 	{
@@ -122,7 +122,7 @@
 				"name": "xxx"
 			},
 			"en": {
-				"name": "tangled wire"
+				"name": "wire"
 			},
 			"fr": {
 				"name": "xxx"
@@ -132,7 +132,7 @@
 			}
 		},
 		"initialHide": true,
-		"url": "wire.jpg",
+		"url": "wires.png",
 		"gameItem": "wire"
 	}
 ]

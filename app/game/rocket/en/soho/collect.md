@@ -1,5 +1,5 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/banner_1.png
 ---
 
 # Collect some rocks

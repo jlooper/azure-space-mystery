@@ -1,5 +1,5 @@
 ---
-backdrop: images/dashboard.jpg
+backdrop: images/banner_2.png
 ---
 
 # Beep!

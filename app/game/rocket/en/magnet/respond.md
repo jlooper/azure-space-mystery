@@ -1,5 +1,5 @@
 ---
-backdrop: images/bg.jpg
+backdrop: images/alert.gif
 ---
 # Respond to the alarm
 
