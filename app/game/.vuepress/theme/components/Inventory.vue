@@ -12,7 +12,11 @@
           <div v-for="item in inventory" class="item">
             <div class="bg-white text-center rounded mb-5">
               <span class="container">
-                <img class="inline ":src="getUrl(item)" :alt="getLocalizedName(item)" />
+                <img
+                  class="inline"
+                  :src="getUrl(item)"
+                  :alt="getLocalizedName(item)"
+                />
               </span>
               <p class="pt-0">{{ getLocalizedName(item) }}</p>
             </div>
@@ -46,13 +50,26 @@ export default {
 
     getLocalizedName(item) {
       let currItem = item;
-
       if (this.$i18n.locale == "es") {
         currItem = currItem.name.es.name;
       } else if (this.$i18n.locale == "pt") {
         currItem = currItem.name.pt.name;
       } else if (this.$i18n.locale == "fr") {
         currItem = currItem.name.fr.name;
+      } else if (this.$i18n.locale == "ar") {
+        currItem = currItem.name.ar.name;
+      } else if (this.$i18n.locale == "de") {
+        currItem = currItem.name.de.name;
+      } else if (this.$i18n.locale == "he") {
+        currItem = currItem.name.he.name;
+      } else if (this.$i18n.locale == "it") {
+        currItem = currItem.name.it.name;
+      } else if (this.$i18n.locale == "tr") {
+        currItem = currItem.name.tr.name;
+      } else if (this.$i18n.locale == "ja") {
+        currItem = currItem.name.ja.name;
+      } else if (this.$i18n.locale == "zh") {
+        currItem = currItem.name.zh.name;
       } else {
         currItem = currItem.name.en.name;
       }

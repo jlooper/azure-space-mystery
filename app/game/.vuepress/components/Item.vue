@@ -38,6 +38,20 @@ export default {
         currItem = currItem.instructions.pt.instruction;
       } else if (this.$i18n.locale == "fr") {
         currItem = currItem.instructions.fr.instruction;
+      } else if (this.$i18n.locale == "ar") {
+        currItem = currItem.instructions.ar.instruction;
+      } else if (this.$i18n.locale == "de") {
+        currItem = currItem.instructions.de.instruction;
+      } else if (this.$i18n.locale == "he") {
+        currItem = currItem.instructions.he.instruction;
+      } else if (this.$i18n.locale == "it") {
+        currItem = currItem.instructions.it.instruction;
+      } else if (this.$i18n.locale == "tr") {
+        currItem = currItem.instructions.tr.instruction;
+      } else if (this.$i18n.locale == "ja") {
+        currItem = currItem.instructions.ja.instruction;
+      } else if (this.$i18n.locale == "zh") {
+        currItem = currItem.instructions.zh.instruction;
       } else {
         currItem = currItem.instructions.en.instruction;
       }
@@ -51,6 +65,20 @@ export default {
         currItem = currItem.result.pt.result;
       } else if (this.$i18n.locale == "fr") {
         currItem = currItem.result.fr.result;
+      } else if (this.$i18n.locale == "ar") {
+        currItem = currItem.result.ar.result;
+      } else if (this.$i18n.locale == "de") {
+        currItem = currItem.result.de.result;
+      } else if (this.$i18n.locale == "he") {
+        currItem = currItem.result.he.result;
+      } else if (this.$i18n.locale == "it") {
+        currItem = currItem.result.it.result;
+      } else if (this.$i18n.locale == "tr") {
+        currItem = currItem.result.tr.result;
+      } else if (this.$i18n.locale == "ja") {
+        currItem = currItem.result.ja.result;
+      } else if (this.$i18n.locale == "zh") {
+        currItem = currItem.result.zh.result;
       } else {
         currItem = currItem.result.en.result;
       }
@@ -64,6 +92,20 @@ export default {
         currItem = currItem.name.pt.name;
       } else if (this.$i18n.locale == "fr") {
         currItem = currItem.name.fr.name;
+      } else if (this.$i18n.locale == "ar") {
+        currItem = currItem.name.ar.name;
+      } else if (this.$i18n.locale == "de") {
+        currItem = currItem.name.de.name;
+      } else if (this.$i18n.locale == "he") {
+        currItem = currItem.name.he.name;
+      } else if (this.$i18n.locale == "it") {
+        currItem = currItem.name.it.name;
+      } else if (this.$i18n.locale == "tr") {
+        currItem = currItem.name.tr.name;
+      } else if (this.$i18n.locale == "ja") {
+        currItem = currItem.name.ja.name;
+      } else if (this.$i18n.locale == "zh") {
+        currItem = currItem.name.zh.name;
       } else {
         currItem = currItem.name.en.name;
       }

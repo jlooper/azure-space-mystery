@@ -13,7 +13,14 @@
 			},
 			"pt": {
 				"instruction": "xxx"
-			}
+			},
+			"tr": { "instruction": "xxx" },
+			"de": { "instruction": "xxx" },
+			"it": { "instruction": "xxx" },
+			"he": { "instruction": "xxx" },
+			"ar": { "instruction": "xxx" },
+			"ja": { "instruction": "xxx" },
+			"zh": { "instruction": "xxx" }
 		},
 		"name": "Caroline",
 		"initialHide": true,
@@ -29,7 +36,14 @@
 			},
 			"pt": {
 				"learn": "xxx"
-			}
+			},
+			"tr": { "learn": "xxx" },
+			"de": { "learn": "xxx" },
+			"it": { "learn": "xxx" },
+			"he": { "learn": "xxx" },
+			"ar": { "learn": "xxx" },
+			"ja": { "learn": "xxx" },
+			"zh": { "learn": "xxx" }
 		},
 		"link": "https://wikipedia.org/wiki/Caroline_Herschel",
 		"result": {
@@ -44,7 +58,14 @@
 			},
 			"pt": {
 				"result": "xxx"
-			}
+			},
+			"tr": { "result": "xxx" },
+			"de": { "result": "xxx" },
+			"it": { "result": "xxx" },
+			"he": { "result": "xxx" },
+			"ar": { "result": "xxx" },
+			"ja": { "result": "xxx" },
+			"zh": { "result": "xxx" }
 		}
 	},
 	{
@@ -61,7 +82,14 @@
 			},
 			"pt": {
 				"instruction": "xxx"
-			}
+			},
+			"tr": { "instruction": "xxx" },
+			"de": { "instruction": "xxx" },
+			"it": { "instruction": "xxx" },
+			"he": { "instruction": "xxx" },
+			"ar": { "instruction": "xxx" },
+			"ja": { "instruction": "xxx" },
+			"zh": { "instruction": "xxx" }
 		},
 		"name": "Raymonde",
 		"initialHide": true,
@@ -77,7 +105,14 @@
 			},
 			"pt": {
 				"learn": "xxx"
-			}
+			},
+			"tr": { "learn": "xxx" },
+			"de": { "learn": "xxx" },
+			"it": { "learn": "xxx" },
+			"he": { "learn": "xxx" },
+			"ar": { "learn": "xxx" },
+			"ja": { "learn": "xxx" },
+			"zh": { "learn": "xxx" }
 		},
 		"link": "https://wikipedia.org/wiki/Raymonde_de_Laroche",
 		"result": {
@@ -92,7 +127,14 @@
 			},
 			"pt": {
 				"result": "xxx"
-			}
+			},
+			"tr": { "result": "xxx" },
+			"de": { "result": "xxx" },
+			"it": { "result": "xxx" },
+			"he": { "result": "xxx" },
+			"ar": { "result": "xxx" },
+			"ja": { "result": "xxx" },
+			"zh": { "result": "xxx" }
 		}
 	},
 	{
@@ -125,7 +167,14 @@
 			},
 			"pt": {
 				"learn": "xxx"
-			}
+			},
+			"tr": { "learn": "xxx" },
+			"de": { "learn": "xxx" },
+			"it": { "learn": "xxx" },
+			"he": { "learn": "xxx" },
+			"ar": { "learn": "xxx" },
+			"ja": { "learn": "xxx" },
+			"zh": { "learn": "xxx" }
 		},
 		"link": "https://wikipedia.org/wiki/Hypatia",
 		"result": {
@@ -140,7 +189,14 @@
 			},
 			"pt": {
 				"result": "xxx"
-			}
+			},
+			"tr": { "result": "xxx" },
+			"de": { "result": "xxx" },
+			"it": { "result": "xxx" },
+			"he": { "result": "xxx" },
+			"ar": { "result": "xxx" },
+			"ja": { "result": "xxx" },
+			"zh": { "result": "xxx" }
 		}
 	},
 	{
@@ -157,7 +213,14 @@
 			},
 			"pt": {
 				"instruction": "xxx"
-			}
+			},
+			"tr": { "instruction": "xxx" },
+			"de": { "instruction": "xxx" },
+			"it": { "instruction": "xxx" },
+			"he": { "instruction": "xxx" },
+			"ar": { "instruction": "xxx" },
+			"ja": { "instruction": "xxx" },
+			"zh": { "instruction": "xxx" }
 		},
 		"name": "Mary",
 		"initialHide": true,
@@ -173,7 +236,14 @@
 			},
 			"pt": {
 				"learn": "xxx"
-			}
+			},
+			"tr": { "learn": "xxx" },
+			"de": { "learn": "xxx" },
+			"it": { "learn": "xxx" },
+			"he": { "learn": "xxx" },
+			"ar": { "learn": "xxx" },
+			"ja": { "learn": "xxx" },
+			"zh": { "learn": "xxx" }
 		},
 		"link": "https://wikipedia.org/wiki/Mary_Somerville",
 		"result": {
@@ -188,7 +258,14 @@
 			},
 			"pt": {
 				"result": "xxx"
-			}
+			},
+			"tr": { "result": "xxx" },
+			"de": { "result": "xxx" },
+			"it": { "result": "xxx" },
+			"he": { "result": "xxx" },
+			"ar": { "result": "xxx" },
+			"ja": { "result": "xxx" },
+			"zh": { "result": "xxx" }
 		}
 	}
 ]

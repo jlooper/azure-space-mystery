@@ -27,4 +27,17 @@ export default {
 		copyright: '© 2021 Microsoft Corporation. Todos os direitos reservados.',
 		credits: 'Créditos',
 	},
+	de: {
+		privacy: 'xxx',
+		terms: 'xxx',
+		support: 'xxx',
+		copyright: 'xxx',
+		credits: 'xxx',
+	},
+	tr: { privacy: 'xxx', terms: 'xxx', support: 'xxx', copyright: 'xxx', credits: 'xxx' },
+	it: { privacy: 'xxx', terms: 'xxx', support: 'xxx', copyright: 'xxx', credits: 'xxx' },
+	he: { privacy: 'xxx', terms: 'xxx', support: 'xxx', copyright: 'xxx', credits: 'xxx' },
+	ar: { privacy: 'xxx', terms: 'xxx', support: 'xxx', copyright: 'xxx', credits: 'xxx' },
+	ja: { privacy: 'xxx', terms: 'xxx', support: 'xxx', copyright: 'xxx', credits: 'xxx' },
+	zh: { privacy: 'xxx', terms: 'xxx', support: 'xxx', copyright: 'xxx', credits: 'xxx' },
 };
