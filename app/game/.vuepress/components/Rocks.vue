@@ -16,7 +16,7 @@
             class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
             type="button"
           >
-            {{ $t("submit") }}
+            {{ $t("try") }}
           </button>
         </div>
       </form>

@@ -1,10 +1,10 @@
 # 🚀👽✨ It's a Race! A Race to Space! 🚀👽✨
 
-## Description
+## Your Mission
 
-Bennie Badger is lost in space! Can you help him find his way home? To do so, you'll need to consult with some very special women who can only be reached by traveling back in time. Collect the clues they provide, solve the puzzles they offer, and help Bennie get back on track to achieve his mission!
+Help! The International Space Station has sent out a distress call. A part of its solar array has been knocked off and it's losing power fast. Can you help retrieve the parts and deliver them to the ISS to save the day? To do so, you'll need to consult with some very special women scientists. Collect the clues they provide, solve the puzzles they offer, and achieve your mission!
 
-> This project is one of the 'Mystery Adventure' Series by Azure Advocates
+> This project is one of the 'Mystery Adventure' Series by Azure Advocates. Lead developers are Jen Looper and Chris Noring.
 
 ## Running the site
 
@@ -28,5 +28,10 @@ Build the site locally:
 
 `npm run build`.
 
+## Backend
+
+This game is tracked using Playfab via an Azure function stored in the `/api` folder.
+
 ## Deploying your site
 
+This site is deployed as an Azure Static Web Site. 

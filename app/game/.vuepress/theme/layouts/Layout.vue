@@ -65,7 +65,7 @@ export default {
         setUID();
       }
       axios
-        .post("https://space-mystery-api.azurewebsites.net/api/loginAnon", {
+       .post("https://space-mystery-api.azurewebsites.net/api/loginAnon", {
           id: getUID(),
           createAccount: hasUID(),
         })

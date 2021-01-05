@@ -36,12 +36,13 @@
 </template>
 <script>
 const helpers = require("@theme/utils/helpers.json");
+import { getSessionTicket } from "@theme/utils";
 import { emitter } from "@theme/utils/emitter";
 import Caroline from "@theme/components/Caroline.vue";
 import Hypatia from "@theme/components/Hypatia.vue";
 import Mary from "@theme/components/Mary.vue";
 import Raymonde from "@theme/components/Raymonde.vue";
-
+import axios from "axios";
 export default {
   props: ["id"],
   components: {
@@ -117,9 +118,25 @@ export default {
       if (this.popoverShow) {
         this.popoverShow = false;
       } else {
+        //log that you showed a popover
+        this.trackClick(item);
         this.popoverShow = true;
         emitter.emit("showResult", item.id);
       }
+    },
+    trackClick(item) {
+      let event = "clicked_helper_" + item.name;
+      axios
+        .post("https://space-mystery-api.azurewebsites.net/api/logEvent", {
+          sessionTicket: getSessionTicket(),
+          eventName: event,
+        })
+        .then((response) => {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
     },
   },
 };

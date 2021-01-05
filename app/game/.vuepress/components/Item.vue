@@ -18,15 +18,12 @@
 <script>
 const items = require("@theme/utils/items.json");
 import messages from "@theme/translations/misc.js";
-import { addItem, getLocale } from "@theme/utils";
+import { addItem, getLocale, getSessionTicket } from "@theme/utils";
 import { emitter } from "@theme/utils/emitter";
 import { i18n } from "@theme/utils/i18n";
-
+import axios from "axios";
 export default {
   props: ["id"],
-  i18n: {
-    messages,
-  },
   computed: {
     item() {
       let item = items.find((row) => row.id == this.id);
@@ -86,12 +83,27 @@ export default {
       let addOk = confirm(this.$t("collect"));
       if (addOk) {
         addItem(item.id);
-
+        this.trackClick(item.gameItem);
         emitter.emit("item_added", item.id);
 
         //you got the item, so hide the prompt
         this.showInstructions = false;
       }
+    },
+
+    trackClick(item) {
+      let event = "collected_item_" + item;
+      axios
+        .post("https://space-mystery-api.azurewebsites.net/api/logEvent", {
+          sessionTicket: getSessionTicket(),
+          eventName: event,
+        })
+        .then((response) => {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
     },
 
     emitResult(item) {

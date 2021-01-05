@@ -21,14 +21,7 @@ if (typeof window === 'undefined') {
 				return { ...acc, [curr.id]: true };
 			}, {});
 			return JSON.stringify(mockResponse);
-		},
-		getHelper() {
-			// we need a mocked response of all helpers, otherwise the build process will crash every time we add a new item
-			const mockResponse = helpers.reduce((acc, curr) => {
-				return { ...acc, [curr.id]: true };
-			}, {});
-			return JSON.stringify(mockResponse);
-		},
+		}
 	};
 }
 

@@ -9,4 +9,13 @@ module.exports = {
 	themeConfig: {
 		search: false,
 	},
+	devServer: {
+		proxy: {
+			'/api': {
+				target: 'http://localhost:7071',
+				ws: true,
+				changeOrigin: true,
+			},
+		},
+	},
 };
