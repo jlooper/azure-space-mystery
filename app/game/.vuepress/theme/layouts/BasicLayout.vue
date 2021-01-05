@@ -19,6 +19,12 @@
             <option role="link" value="fr">Français</option>
             <option role="link" value="pt">Português</option>
             <option role="link" value="ar">اَلْعَرَبِيَّةُ</option>
+            <option role="link" value="he">עִברִית</option>
+            <option role="link" value="it">Italiano</option>
+            <option role="link" value="tr">Türk</option>
+            <option role="link" value="de">Deutsch</option>
+            <option role="link" value="ja">日本人</option>
+            <option role="link" value="zh">中文</option>
           </select>
           <div
             class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
@@ -64,8 +70,8 @@ export default {
         setLocale(lang);
         emitter.emit("lang_changed", lang);
         var currPath = this.$route.matched[0].path;
-        var newPath = currPath.replace(/es|pt|en|ar|fr/gi, lang);
-        this.$router.push({ path: newPath });
+        var newPath = currPath.replace(/es|pt|en|ar|de|tr|ja|zh|he|fr/gi, lang);
+        //this.$router.push({ path: newPath });
       }
     },
   },

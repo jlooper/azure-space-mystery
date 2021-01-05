@@ -65,7 +65,7 @@ export default {
         setUID();
       }
       axios
-       .post("https://space-mystery-api.azurewebsites.net/api/loginAnon", {
+        .post("https://space-mystery-api.azurewebsites.net/api/loginAnon", {
           id: getUID(),
           createAccount: hasUID(),
         })
@@ -103,7 +103,7 @@ export default {
   },
   mounted() {
     emitter.on("lang_changed", (lang) => {
-      if (lang == "ar") {
+      if (lang == "ar" || lang == "he") {
         this.dir = "rtl";
       } else {
         this.dir = "ltr";

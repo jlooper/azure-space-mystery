@@ -13,7 +13,14 @@
 			},
 			"pt": {
 				"instruction": "xxx"
-			}
+			},
+			"tr": { "instruction": "xxx" },
+			"de": { "instruction": "xxx" },
+			"it": { "instruction": "xxx" },
+			"he": { "instruction": "xxx" },
+			"ar": { "instruction": "xxx" },
+			"ja": { "instruction": "xxx" },
+			"zh": { "instruction": "xxx" }
 		},
 		"name": {
 			"es": {
@@ -27,7 +34,14 @@
 			},
 			"pt": {
 				"name": "xxx"
-			}
+			},
+			"tr": { "name": "xxx" },
+			"de": { "name": "xxx" },
+			"it": { "name": "xxx" },
+			"he": { "name": "xxx" },
+			"ar": { "name": "xxx" },
+			"ja": { "name": "xxx" },
+			"zh": { "name": "xxx" }
 		},
 		"initialHide": true,
 		"url": "gimbal.png",
@@ -47,7 +61,14 @@
 			},
 			"pt": {
 				"instruction": "xxx"
-			}
+			},
+			"tr": { "instruction": "xxx" },
+			"de": { "instruction": "xxx" },
+			"it": { "instruction": "xxx" },
+			"he": { "instruction": "xxx" },
+			"ar": { "instruction": "xxx" },
+			"ja": { "instruction": "xxx" },
+			"zh": { "instruction": "xxx" }
 		},
 		"name": {
 			"es": {
@@ -61,7 +82,14 @@
 			},
 			"pt": {
 				"name": "xxx"
-			}
+			},
+			"tr": { "name": "xxx" },
+			"de": { "name": "xxx" },
+			"it": { "name": "xxx" },
+			"he": { "name": "xxx" },
+			"ar": { "name": "xxx" },
+			"ja": { "name": "xxx" },
+			"zh": { "name": "xxx" }
 		},
 		"initialHide": true,
 		"url": "solarcell.png",
@@ -81,7 +109,14 @@
 			},
 			"pt": {
 				"instruction": "xxx"
-			}
+			},
+			"tr": { "instruction": "xxx" },
+			"de": { "instruction": "xxx" },
+			"it": { "instruction": "xxx" },
+			"he": { "instruction": "xxx" },
+			"ar": { "instruction": "xxx" },
+			"ja": { "instruction": "xxx" },
+			"zh": { "instruction": "xxx" }
 		},
 		"name": {
 			"es": {
@@ -95,7 +130,14 @@
 			},
 			"pt": {
 				"name": "xxx"
-			}
+			},
+			"tr": { "name": "xxx" },
+			"de": { "name": "xxx" },
+			"it": { "name": "xxx" },
+			"he": { "name": "xxx" },
+			"ar": { "name": "xxx" },
+			"ja": { "name": "xxx" },
+			"zh": { "name": "xxx" }
 		},
 		"initialHide": true,
 		"url": "metalframe.png",
@@ -115,7 +157,14 @@
 			},
 			"pt": {
 				"instruction": "xxx"
-			}
+			},
+			"tr": { "instruction": "xxx" },
+			"de": { "instruction": "xxx" },
+			"it": { "instruction": "xxx" },
+			"he": { "instruction": "xxx" },
+			"ar": { "instruction": "xxx" },
+			"ja": { "instruction": "xxx" },
+			"zh": { "instruction": "xxx" }
 		},
 		"name": {
 			"es": {
@@ -129,7 +178,14 @@
 			},
 			"pt": {
 				"name": "xxx"
-			}
+			},
+			"tr": { "name": "xxx" },
+			"de": { "name": "xxx" },
+			"it": { "name": "xxx" },
+			"he": { "name": "xxx" },
+			"ar": { "name": "xxx" },
+			"ja": { "name": "xxx" },
+			"zh": { "name": "xxx" }
 		},
 		"initialHide": true,
 		"url": "wires.png",
