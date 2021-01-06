@@ -12,4 +12,4 @@ At least you lived to fly another day.
 
 ...your mission is over!
 
-<Page url="/rocket/en/1" instructions="" action="Return to the start" condition="none" />
+<Page url="/rocket/fr/1" instructions="" action="Return to the start" condition="none" />

@@ -8,4 +8,4 @@ The dust from the comet sandblasts your ship. The dashboard starts blinking red 
 
 ...your mission is over!
 
-<Page url="/rocket/en/1" instructions="" action="Return to the start" condition="none" />
+<Page url="/rocket/it/1" instructions="" action="Return to the start" condition="none" />

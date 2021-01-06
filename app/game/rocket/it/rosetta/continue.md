@@ -1,5 +1,5 @@
 ---
-backdrop: images/solarcell.png
+backdrop: images/solarcell_banner.png
 ---
 
 # Space junk
@@ -17,4 +17,4 @@ Congratulations! You earned a badge!
 [Tweet!](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmicrosoft.com/AzureSpaceMystery%2F&text=I%20just%20earned%20a%20badge%20in%20the%20Azure%20Space%20Mystery%20adventure!&hashtags=AzureSpaceMystery)
 
 
-<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" />
+<Page url="/rocket/it/1" instructions="" action="Return to the start for a new mission!" condition="none" />

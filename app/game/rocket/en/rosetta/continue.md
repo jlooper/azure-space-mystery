@@ -1,5 +1,5 @@
 ---
-backdrop: images/solarcell.png
+backdrop: images/solarcell_banner.png
 ---
 
 # Space junk
