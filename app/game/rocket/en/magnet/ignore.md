@@ -1,5 +1,5 @@
 ---
-backdrop: images/alert.gif
+backdrop: images/banner_6.png
 ---
 # Ignoring an alarm
 
