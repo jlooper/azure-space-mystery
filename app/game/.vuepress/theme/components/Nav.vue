@@ -8,7 +8,7 @@
 
     <span class="lg:w-1/2 md:w-full sm:w-full w-full">
       <span
-        class="title cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1"
+        class="title text-right cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1"
         @click="goHome()"
         >Azure Space Mystery</span
       >
@@ -43,8 +43,6 @@
 
 <script>
 import Inventory from "@theme/components/Inventory.vue";
-import { setLocale, getLocale } from "@theme/utils";
-import { emitter } from "@theme/utils/emitter";
 
 export default {
   name: "Nav",
@@ -64,8 +62,6 @@ export default {
       }
     },
     goHome() {
-      setLocale("en");
-      emitter.emit("lang_changed", "en");
       this.$router.push({ path: "/" });
     },
   },

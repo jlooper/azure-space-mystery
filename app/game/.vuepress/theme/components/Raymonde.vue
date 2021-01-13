@@ -2,7 +2,11 @@
   <div class="content-center">
     <blockquote class="speech-bubble">
       <p>
-        {{ $t("raymondequote") }}
+        "You're very close to the South Atlantic Anomaly. The radiation
+        intensity is higher in this region. It is produced by a dip in the
+        Earth's magnetic field. The anomaly creates interferences with your
+        onboard computers. If a sensor is hit by a high-energy proton, it can
+        lead to temporary or permanent damage. We must move on!"
       </p>
     </blockquote>
     <img
@@ -15,23 +19,8 @@
 </template>
 
 <script>
-import { getLocale } from "@theme/utils";
-import messages from "@theme/translations/misc.js";
-import { emitter } from "@theme/utils/emitter";
-import { i18n } from "@theme/utils/i18n";
-
 export default {
   name: "Raymonde",
-  i18n: {
-    messages,
-  },
-  
-  created() {
-    this.$i18n.locale = getLocale();
-    emitter.on("lang_changed", (lang) => {
-      this.$i18n.locale = lang;
-    });
-  },
 };
 </script>
 

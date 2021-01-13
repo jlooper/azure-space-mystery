@@ -65,25 +65,21 @@
         class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
         @click="test()"
       >
-        {{ $t("try") }}
+        Submit
       </button>
     </div>
 
     <p v-if="showNext">
-      <router-link to="continue">{{ $t("continue") }}</router-link>
+      <router-link to="continue">Continue</router-link>
     </p>
   </div>
 </template>
 <script>
-import messages from "@theme/translations/misc.js";
-import { getLocale } from "@theme/utils";
 import { emitter } from "@theme/utils/emitter";
 
 export default {
   name: "Buttons",
-  i18n: {
-    messages,
-  },
+
   data() {
     return {
       numbersArray: [],
@@ -100,21 +96,21 @@ export default {
       console.log(item);
       let phase = "";
       if (item == 1) {
-        phase = this.$t("waxingcrescent");
+        phase = "Waxing Crescent";
       } else if (item == 2) {
-        phase = this.$t("full");
+        phase = "Full";
       } else if (item == 3) {
-        phase = this.$t("waninggibbous");
+        phase = "Waning Gibbous";
       } else if (item == 4) {
-        phase = this.$t("new");
+        phase = "New";
       } else if (item == 5) {
-        phase = this.$t("waxinggibbous");
+        phase = "Waxing Gibbous";
       } else if (item == 6) {
-        phase = this.$t("waningcrescent");
+        phase = "Waning Crescent";
       } else if (item == 7) {
-        phase = this.$t("firstquarter");
+        phase = "First Quarter";
       } else if (item == 8) {
-        phase = this.$t("thirdquarter");
+        phase = "Third Quarter";
       }
       this.wordsArray.push(phase + ", ");
       phase = "";
@@ -124,20 +120,14 @@ export default {
         JSON.stringify([4, 6, 7, 5, 2, 3, 8, 1]) ===
         JSON.stringify(this.numbersArray)
       ) {
-        this.message = this.$t("pass");
+        this.message = "Well done!";
         this.showNext = true;
       } else {
-        this.message = this.$t("fail");
+        this.message = "Sorry, try again";
       }
       this.numbersArray = [];
       this.wordsArray = [];
     },
-  },
-  created() {
-    this.$i18n.locale = getLocale();
-    emitter.on("lang_changed", (lang) => {
-      this.$i18n.locale = lang;
-    });
   },
 };
 </script>

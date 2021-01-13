@@ -31,20 +31,14 @@
 
     <p role="alert">{{ message }}</p>
     <p v-if="showNext">
-      <router-link to="continue">{{ $t("continue") }}</router-link>
+      <router-link to="continue">Continue</router-link>
     </p>
   </div>
 </template>
 <script>
-import messages from "@theme/translations/misc.js";
-import { getLocale } from "@theme/utils";
-import { emitter } from "@theme/utils/emitter";
-
 export default {
   name: "Query",
-  i18n: {
-    messages,
-  },
+
   data() {
     return {
       answer: 0,
@@ -55,17 +49,11 @@ export default {
   methods: {
     test(value) {
       if (value == 32) {
-        this.message = this.$t("pass");
+        this.message = "Well done!";
         this.showNext = true;
       } else {
-        this.message = this.$t("fail");
+        this.message = "Sorry, try again";
       }
-    },
-    created() {
-      this.$i18n.locale = getLocale();
-      emitter.on("lang_changed", (lang) => {
-        this.$i18n.locale = lang;
-      });
     },
   },
 };

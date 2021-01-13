@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" :dir="dir">
+  <div class="wrapper">
     <div
       class="markdown-body font-sans bg-white m-2 sm:m-3 md:m-6 lg:m-12 text-lg rounded-lg"
     >
@@ -38,11 +38,7 @@ import {
   setUID,
   hasUID,
   setSessionTicket,
-  getLocale,
-  setLocale,
 } from "@theme/utils";
-import { emitter } from "@theme/utils/emitter";
-import { i18n } from "@theme/utils/i18n";
 import axios from "axios";
 
 export default {
@@ -52,11 +48,10 @@ export default {
     Inventory,
     Footer,
   },
-  i18n: {},
   data() {
     return {
       hidden: "lg:inline-block md:hidden sm:hidden hidden w-1/2",
-      dir: "ltr",
+      
     };
   },
   methods: {
@@ -95,20 +90,7 @@ export default {
     },
   },
   created() {
-    this.$i18n.locale = getLocale();
-    emitter.on("lang_changed", (lang) => {
-      this.$i18n.locale = lang;
-    });
     this.login();
-  },
-  mounted() {
-    emitter.on("lang_changed", (lang) => {
-      if (lang == "ar" || lang == "he") {
-        this.dir = "rtl";
-      } else {
-        this.dir = "ltr";
-      }
-    });
   },
 };
 </script>
