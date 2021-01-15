@@ -8,19 +8,7 @@
       >
         🌒
       </button>
-      <button
-        class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(2)"
-      >
-        🌕
-      </button>
-      <button
-        type="button"
-        class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(3)"
-      >
-        🌖
-      </button>
+
       <button
         type="button"
         class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
@@ -35,26 +23,13 @@
       >
         🌔
       </button>
-      <button
-        type="button"
-        class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(6)"
-      >
-        🌘
-      </button>
+
       <button
         type="button"
         class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
         @click="count(7)"
       >
         🌓
-      </button>
-      <button
-        type="button"
-        class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(8)"
-      >
-        🌗
       </button>
     </div>
     <span v-for="word in wordsArray">{{ word }}</span>
@@ -91,35 +66,24 @@ export default {
   methods: {
     count(item) {
       this.message = "";
-      //4,6,7,5,2,3,8,1
+      //4,1,7,5
       this.numbersArray.push(item);
       console.log(item);
       let phase = "";
       if (item == 1) {
         phase = "Waxing Crescent";
-      } else if (item == 2) {
-        phase = "Full";
-      } else if (item == 3) {
-        phase = "Waning Gibbous";
       } else if (item == 4) {
         phase = "New";
       } else if (item == 5) {
         phase = "Waxing Gibbous";
-      } else if (item == 6) {
-        phase = "Waning Crescent";
       } else if (item == 7) {
         phase = "First Quarter";
-      } else if (item == 8) {
-        phase = "Third Quarter";
       }
       this.wordsArray.push(phase + ", ");
       phase = "";
     },
     test() {
-      if (
-        JSON.stringify([4, 6, 7, 5, 2, 3, 8, 1]) ===
-        JSON.stringify(this.numbersArray)
-      ) {
+      if (JSON.stringify([4, 1, 7, 5]) === JSON.stringify(this.numbersArray)) {
         this.message = "Well done!";
         this.showNext = true;
       } else {
