@@ -1,5 +1,5 @@
 ---
-backdrop: images/banner_1.png
+backdrop: images/banner_7.png
 ---
 
 # Space walk
@@ -8,7 +8,7 @@ You gather your gear for the repair and put on your space suit, open the hatch, 
 
 Just as you are nearly finished with your repair, your grease gun explodes. Oil covers your helmet, camera, and gloves.
 
-“Darn...what else can go wrong on this mission” you mumble to yourself. As you are wiping it off your gloves, the tool bag slips out of your grip! You are about to lose all your tools!  
+“Darn...what else can go wrong on this mission?” you mumble to yourself. As you are wiping grease off your gloves, the tool bag slips out of your grip! You are about to lose all your tools!  
 
 You make a wild grab and catch the tool bag at the last second before it floats off.
 
