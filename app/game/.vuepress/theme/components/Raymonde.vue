@@ -13,7 +13,7 @@
       alt="Raymonde de Laroche"
       class="mb-10"
       style="display: inline"
-      src="/images/raymonde.jpg"
+      :src="$withBase('/images/raymonde.jpg')"
     />
   </div>
 </template>

@@ -11,16 +11,13 @@
       alt="Mary Somerville"
       class="mb-10"
       style="display: inline"
-      src="/images/mary.jpg"
+      :src="$withBase('/images/mary.jpg')"
     />
   </div>
 </template>
 <script>
-
 export default {
   name: "Mary",
-  
-
 };
 </script>
 

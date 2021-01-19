@@ -10,7 +10,7 @@
       alt="Caroline Herschel"
       class="mb-10"
       style="display: inline"
-      src="/images/caroline.jpg"
+      :src="$withBase('/images/caroline.jpg')"
     />
   </div>
 </template>
