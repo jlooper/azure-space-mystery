@@ -31,7 +31,7 @@
 
     <p role="alert">{{ message }}</p>
     <p v-if="showNext">
-      <router-link to="continue">Continue</router-link>
+      <router-link to="wind">Continue</router-link>
     </p>
   </div>
 </template>

@@ -4,7 +4,6 @@
     <div class="page-nav" v-if="show">
       <router-link :to="link || './'">{{ action }}</router-link>
     </div>
-   
   </div>
 </template>
 <script>
@@ -12,7 +11,7 @@ import { emitter } from "@theme/utils/emitter";
 import { getItems } from "@theme/utils/";
 
 export default {
-  props: ["url", "action", "condition", "instructions", "end"],
+  props: ["url", "action", "condition", "instructions"],
 
   data() {
     return {
@@ -20,16 +19,7 @@ export default {
       link: this.url,
     };
   },
-  computed: {
-    endState() {
-      //todo ensure this is available only when all inventory selected
-      let items = getItems();
-      if (items.length == 4) {
-        this.show == false;
-        return true;
-      } else return false;
-    },
-  },
+
   methods: {
     getInventory(id) {
       if (this.condition == id || this.condition == "none") {
@@ -38,13 +28,18 @@ export default {
         this.show = false;
       }
     },
-    goToRoom(url) {
-      this.$router.replace({ path: url });
+    checkInventory() {
+      let items = getItems();
+      if (items.length == 4) {
+        this.show = false;
+      }
     },
   },
   created() {
     //initially, set home page to show followup
     this.getInventory(1);
+    //don't show the continue button if you have everything
+    this.checkInventory();
 
     emitter.on("item_added", (id) => {
       this.getInventory(id);
@@ -52,6 +47,10 @@ export default {
 
     emitter.on("showResult", (id) => {
       this.getInventory(id);
+    });
+
+    emitter.on("test_end", () => {
+      this.checkInventory();
     });
   },
 };

@@ -65,7 +65,7 @@ export default {
         addItem(item.id);
         this.trackClick(item.gameItem);
         emitter.emit("item_added", item.id);
-
+        emitter.emit("test_end")
         //you got the item, so hide the prompt
         this.showInstructions = false;
       }

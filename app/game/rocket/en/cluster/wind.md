@@ -1,15 +1,16 @@
 ---
-backdrop: images/banner_3.png
+backdrop: images/banner_2.png
 ---
-# Launch your drone
 
-The launch sequence is initialized, and the drone flies straight to the frame, extends an arm, and quickly retrieves it.
+# Winding Wire
 
-<Item id="3"/>
+You use the ship's robotic arm to reach out and grab the tangled wire. It takes you several hours, but you untangle the knots and wind it up on the spool. It fits perfectly, well done!
+
+<Item id="4"/>
 
 Congratulations! You earned a badge!
 
-![Raymonde Badge](/AzureSpaceMystery/images/raymonde_badge.png)
+![Hypatia Badge](/AzureSpaceMystery/images/hypatia_badge.png)
 
 [Tweet!](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmicrosoft.com/AzureSpaceMystery%2F&text=I%20just%20earned%20a%20badge%20in%20the%20Azure%20Space%20Mystery%20adventure!&hashtags=AzureSpaceMystery)
 
@@ -18,5 +19,6 @@ Subscribe to <a
           target="_blank"
         >our newsletter</a>!
 
+<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" end="true" />
 
-<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" end="true"/>
+<LastPage/>

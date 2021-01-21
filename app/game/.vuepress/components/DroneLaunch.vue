@@ -45,7 +45,7 @@
     </div>
 
     <p v-if="showNext">
-      <router-link to="continue">Continue</router-link>
+      <router-link to="launch">Continue</router-link>
     </p>
   </div>
 </template>

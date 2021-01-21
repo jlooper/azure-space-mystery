@@ -32,4 +32,4 @@ Subscribe to <a
 
 <Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" end="true" />
 
-<!--<Page url="/rocket/en/fin" instructions="" action="Fly to the ISS!" condition="1" end="true" />-->
+<LastPage/>

@@ -22,4 +22,4 @@ You grab the steering column:
 
 <Page url="dust"  action="Steer right" condition="none" />
 <Page url="down"  action="Steer down" condition="none" />
-<Page url="continue"  action="Steer left" condition="none" />
+<Page url="float"  action="Steer left" condition="none" />

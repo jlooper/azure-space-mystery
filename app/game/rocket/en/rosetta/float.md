@@ -23,3 +23,5 @@ Subscribe to <a
 
 
 <Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" end="true" />
+
+<LastPage/>
