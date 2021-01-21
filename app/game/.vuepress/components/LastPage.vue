@@ -1,6 +1,6 @@
 <template>
-  <div class="prompt">
-    <div class="page-nav" v-if="endState || final">
+  <div class="text-3xl rounded m-5 p-5 bg-yellow-300" v-if="endState || final">
+    <div class="page-nav">
       <router-link to="/rocket/en/fin"
         >Complete your Mission and Fly to the ISS!</router-link
       >
@@ -41,11 +41,6 @@ export default {
 };
 </script>
 <style lang="stylus">
-.prompt {
-  padding-top: 10px;
-  font-size: 28px;
-}
-
 .page-nav {
   font-weight: bold;
   padding-top: 10px;
