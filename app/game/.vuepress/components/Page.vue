@@ -8,7 +8,6 @@
 </template>
 <script>
 import { emitter } from "@theme/utils/emitter";
-import { getItems } from "@theme/utils/";
 
 export default {
   props: ["url", "action", "condition", "instructions"],
@@ -28,18 +27,10 @@ export default {
         this.show = false;
       }
     },
-    checkInventory() {
-      let items = getItems();
-      if (items.length == 4) {
-        this.show = false;
-      }
-    },
   },
   created() {
     //initially, set home page to show followup
     this.getInventory(1);
-    //don't show the continue button if you have everything
-    this.checkInventory();
 
     emitter.on("item_added", (id) => {
       this.getInventory(id);
@@ -47,10 +38,6 @@ export default {
 
     emitter.on("showResult", (id) => {
       this.getInventory(id);
-    });
-
-    emitter.on("test_end", () => {
-      this.checkInventory();
     });
   },
 };
