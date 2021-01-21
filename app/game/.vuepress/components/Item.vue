@@ -31,21 +31,21 @@ export default {
     getInstructions() {
       let currItem = items.find((row) => row.id == this.id);
 
-      currItem = currItem.instructions.en.instruction;
+      currItem = currItem.instructions;
 
       return currItem;
     },
     getResult() {
       let currItem = items.find((row) => row.id == this.id);
 
-      currItem = currItem.result.en.result;
+      currItem = currItem.result;
 
       return currItem;
     },
     getName() {
       let currItem = items.find((row) => row.id == this.id);
 
-      currItem = currItem.name.en.name;
+      currItem = currItem.name;
 
       return currItem;
     },

@@ -4,19 +4,31 @@
     <div class="page-nav" v-if="show">
       <router-link :to="link || './'">{{ action }}</router-link>
     </div>
+   
   </div>
 </template>
 <script>
 import { emitter } from "@theme/utils/emitter";
+import { getItems } from "@theme/utils/";
 
 export default {
-  props: ["url", "action", "condition", "instructions"],
+  props: ["url", "action", "condition", "instructions", "end"],
 
   data() {
     return {
       show: false,
       link: this.url,
     };
+  },
+  computed: {
+    endState() {
+      //todo ensure this is available only when all inventory selected
+      let items = getItems();
+      if (items.length == 4) {
+        this.show == false;
+        return true;
+      } else return false;
+    },
   },
   methods: {
     getInventory(id) {

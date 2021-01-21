@@ -1,192 +1,32 @@
 [
 	{
 		"id": 1,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Pick up the"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			},
-			"tr": { "instruction": "xxx" },
-			"de": { "instruction": "xxx" },
-			"it": { "instruction": "xxx" },
-			"he": { "instruction": "xxx" },
-			"ar": { "instruction": "xxx" },
-			"ja": { "instruction": "xxx" },
-			"zh": { "instruction": "xxx" }
-		},
-		"name": {
-			"es": {
-				"name": "xxx"
-			},
-			"en": {
-				"name": "gimbal"
-			},
-			"fr": {
-				"name": "xxx"
-			},
-			"pt": {
-				"name": "xxx"
-			},
-			"tr": { "name": "xxx" },
-			"de": { "name": "xxx" },
-			"it": { "name": "xxx" },
-			"he": { "name": "xxx" },
-			"ar": { "name": "xxx" },
-			"ja": { "name": "xxx" },
-			"zh": { "name": "xxx" }
-		},
+		"instructions": "Pick up the",
+		"name": "gimbal",
 		"initialHide": true,
 		"url": "gimbal.png",
 		"gameItem": "gimbal"
 	},
 	{
 		"id": 2,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Fetch the"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			},
-			"tr": { "instruction": "xxx" },
-			"de": { "instruction": "xxx" },
-			"it": { "instruction": "xxx" },
-			"he": { "instruction": "xxx" },
-			"ar": { "instruction": "xxx" },
-			"ja": { "instruction": "xxx" },
-			"zh": { "instruction": "xxx" }
-		},
-		"name": {
-			"es": {
-				"name": "xxx"
-			},
-			"en": {
-				"name": "solar cell"
-			},
-			"fr": {
-				"name": "xxx"
-			},
-			"pt": {
-				"name": "xxx"
-			},
-			"tr": { "name": "xxx" },
-			"de": { "name": "xxx" },
-			"it": { "name": "xxx" },
-			"he": { "name": "xxx" },
-			"ar": { "name": "xxx" },
-			"ja": { "name": "xxx" },
-			"zh": { "name": "xxx" }
-		},
+		"instructions": "Fetch the",
+		"name": "solar cell",
 		"initialHide": true,
 		"url": "solarcell.png",
 		"gameItem": "solar-cell"
 	},
 	{
 		"id": 3,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Collect the"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			},
-			"tr": { "instruction": "xxx" },
-			"de": { "instruction": "xxx" },
-			"it": { "instruction": "xxx" },
-			"he": { "instruction": "xxx" },
-			"ar": { "instruction": "xxx" },
-			"ja": { "instruction": "xxx" },
-			"zh": { "instruction": "xxx" }
-		},
-		"name": {
-			"es": {
-				"name": "xxx"
-			},
-			"en": {
-				"name": "metal frame"
-			},
-			"fr": {
-				"name": "xxx"
-			},
-			"pt": {
-				"name": "xxx"
-			},
-			"tr": { "name": "xxx" },
-			"de": { "name": "xxx" },
-			"it": { "name": "xxx" },
-			"he": { "name": "xxx" },
-			"ar": { "name": "xxx" },
-			"ja": { "name": "xxx" },
-			"zh": { "name": "xxx" }
-		},
+		"instructions": "Collect the",
+		"name": "metal frame",
 		"initialHide": true,
 		"url": "metalframe.png",
 		"gameItem": "metal-frame"
 	},
 	{
 		"id": 4,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Wind up the"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			},
-			"tr": { "instruction": "xxx" },
-			"de": { "instruction": "xxx" },
-			"it": { "instruction": "xxx" },
-			"he": { "instruction": "xxx" },
-			"ar": { "instruction": "xxx" },
-			"ja": { "instruction": "xxx" },
-			"zh": { "instruction": "xxx" }
-		},
-		"name": {
-			"es": {
-				"name": "xxx"
-			},
-			"en": {
-				"name": "wire"
-			},
-			"fr": {
-				"name": "xxx"
-			},
-			"pt": {
-				"name": "xxx"
-			},
-			"tr": { "name": "xxx" },
-			"de": { "name": "xxx" },
-			"it": { "name": "xxx" },
-			"he": { "name": "xxx" },
-			"ar": { "name": "xxx" },
-			"ja": { "name": "xxx" },
-			"zh": { "name": "xxx" }
-		},
+		"instructions": "Wind up the",
+		"name": "wire",
 		"initialHide": true,
 		"url": "wires.png",
 		"gameItem": "wire"

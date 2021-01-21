@@ -58,14 +58,14 @@ export default {
     getInstructions() {
       let currItem = helpers.find((row) => row.id == this.id);
 
-      currItem = currItem.instructions.en.instruction;
+      currItem = currItem.instructions;
 
       return currItem;
     },
     getResult() {
       let currItem = helpers.find((row) => row.id == this.id);
 
-      currItem = currItem.result.en.result;
+      currItem = currItem.result;
 
       return currItem;
     },
@@ -73,7 +73,7 @@ export default {
     getLearn() {
       let currItem = helpers.find((row) => row.id == this.id);
 
-      currItem = currItem.learn.en.learn;
+      currItem = currItem.learn;
 
       return currItem;
     },

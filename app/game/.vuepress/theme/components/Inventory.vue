@@ -44,7 +44,7 @@ export default {
 
     getName(item) {
       let currItem = item;
-      currItem = currItem.name.en.name;
+      currItem = currItem.name;
       return currItem;
     },
     getUrl(item) {

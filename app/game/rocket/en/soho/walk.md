@@ -24,5 +24,12 @@ Congratulations! You earned a badge!
 
 [Tweet!](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmicrosoft.com/AzureSpaceMystery%2F&text=I%20just%20earned%20a%20badge%20in%20the%20Azure%20Space%20Mystery%20adventure!&hashtags=AzureSpaceMystery)
 
+Subscribe to <a
+          href="https://azure.microsoft.com/resources/join-the-azure-developer-community?WT.mc_id=academic-11769-cxa"
+          target="_blank"
+        >our newsletter</a>!
 
-<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" />
+
+<Page url="/rocket/en/1" instructions="" action="Return to the start for a new mission!" condition="none" end="true" />
+
+<!--<Page url="/rocket/en/fin" instructions="" action="Fly to the ISS!" condition="1" end="true" />-->

@@ -1,271 +1,38 @@
 [
 	{
 		"id": 1,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Turn around"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			},
-			"tr": { "instruction": "xxx" },
-			"de": { "instruction": "xxx" },
-			"it": { "instruction": "xxx" },
-			"he": { "instruction": "xxx" },
-			"ar": { "instruction": "xxx" },
-			"ja": { "instruction": "xxx" },
-			"zh": { "instruction": "xxx" }
-		},
+		"instructions": "Turn around",
 		"name": "Caroline",
 		"initialHide": true,
-		"learn": {
-			"es": {
-				"learn": "xxx"
-			},
-			"en": {
-				"learn": "Meet Caroline Herschel"
-			},
-			"fr": {
-				"learn": "xxx"
-			},
-			"pt": {
-				"learn": "xxx"
-			},
-			"tr": { "learn": "xxx" },
-			"de": { "learn": "xxx" },
-			"it": { "learn": "xxx" },
-			"he": { "learn": "xxx" },
-			"ar": { "learn": "xxx" },
-			"ja": { "learn": "xxx" },
-			"zh": { "learn": "xxx" }
-		},
+		"learn": "Meet Caroline Herschel",
 		"link": "https://wikipedia.org/wiki/Caroline_Herschel",
-		"result": {
-			"es": {
-				"result": "xxx"
-			},
-			"en": {
-				"result": "Can you see the tails? The comet is on a trajectory – and so are we. We need to avoid hitting both the comet and one of the tails, while we can go through the other."
-			},
-			"fr": {
-				"result": "xxx"
-			},
-			"pt": {
-				"result": "xxx"
-			},
-			"tr": { "result": "xxx" },
-			"de": { "result": "xxx" },
-			"it": { "result": "xxx" },
-			"he": { "result": "xxx" },
-			"ar": { "result": "xxx" },
-			"ja": { "result": "xxx" },
-			"zh": { "result": "xxx" }
-		}
+		"result": "Can you see the tails? The comet is on a trajectory – and so are we. We need to avoid hitting both the comet and one of the tails, while we can go through the other."
 	},
 	{
 		"id": 2,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Turn around"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			},
-			"tr": { "instruction": "xxx" },
-			"de": { "instruction": "xxx" },
-			"it": { "instruction": "xxx" },
-			"he": { "instruction": "xxx" },
-			"ar": { "instruction": "xxx" },
-			"ja": { "instruction": "xxx" },
-			"zh": { "instruction": "xxx" }
-		},
+		"instructions": "Turn around",
 		"name": "Raymonde",
 		"initialHide": true,
-		"learn": {
-			"es": {
-				"learn": "xxx"
-			},
-			"en": {
-				"learn": "Meet Raymonde de Laroche"
-			},
-			"fr": {
-				"learn": "xxx"
-			},
-			"pt": {
-				"learn": "xxx"
-			},
-			"tr": { "learn": "xxx" },
-			"de": { "learn": "xxx" },
-			"it": { "learn": "xxx" },
-			"he": { "learn": "xxx" },
-			"ar": { "learn": "xxx" },
-			"ja": { "learn": "xxx" },
-			"zh": { "learn": "xxx" }
-		},
+		"learn": "Meet Raymonde de Laroche",
 		"link": "https://wikipedia.org/wiki/Raymonde_de_Laroche",
-		"result": {
-			"es": {
-				"result": "xxx"
-			},
-			"en": {
-				"result": "I know you want to retrieve that frame, but it's too dangerous to leave the spaceship because of the radiation. We must use the space drone. To do this, use a secret code."
-			},
-			"fr": {
-				"result": "xxx"
-			},
-			"pt": {
-				"result": "xxx"
-			},
-			"tr": { "result": "xxx" },
-			"de": { "result": "xxx" },
-			"it": { "result": "xxx" },
-			"he": { "result": "xxx" },
-			"ar": { "result": "xxx" },
-			"ja": { "result": "xxx" },
-			"zh": { "result": "xxx" }
-		}
+		"result": "I know you want to retrieve that frame, but it's too dangerous to leave the spaceship because of the radiation. We must use the space drone. To do this, use a secret code."
 	},
 	{
 		"id": 3,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Turn around"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			}
-		},
+		"instructions": "Turn around",
 		"name": "Hypatia",
 		"initialHide": true,
-		"learn": {
-			"es": {
-				"learn": "xxx"
-			},
-			"en": {
-				"learn": "Meet Hypatia"
-			},
-			"fr": {
-				"learn": "xxx"
-			},
-			"pt": {
-				"learn": "xxx"
-			},
-			"tr": { "learn": "xxx" },
-			"de": { "learn": "xxx" },
-			"it": { "learn": "xxx" },
-			"he": { "learn": "xxx" },
-			"ar": { "learn": "xxx" },
-			"ja": { "learn": "xxx" },
-			"zh": { "learn": "xxx" }
-		},
+		"learn": "Meet Hypatia",
 		"link": "https://wikipedia.org/wiki/Hypatia",
-		"result": {
-			"es": {
-				"result": "xxx"
-			},
-			"en": {
-				"result": "It looks almost like a wire that is untwisting itself. Let me help you fetch it. Perhaps you can solve an equation for me."
-			},
-			"fr": {
-				"result": "xxx"
-			},
-			"pt": {
-				"result": "xxx"
-			},
-			"tr": { "result": "xxx" },
-			"de": { "result": "xxx" },
-			"it": { "result": "xxx" },
-			"he": { "result": "xxx" },
-			"ar": { "result": "xxx" },
-			"ja": { "result": "xxx" },
-			"zh": { "result": "xxx" }
-		}
+		"result": "It looks almost like a wire that is untwisting itself. Let me help you fetch it. Perhaps you can solve an equation for me."
 	},
 	{
 		"id": 4,
-		"instructions": {
-			"es": {
-				"instruction": "xxx"
-			},
-			"en": {
-				"instruction": "Turn around"
-			},
-			"fr": {
-				"instruction": "xxx"
-			},
-			"pt": {
-				"instruction": "xxx"
-			},
-			"tr": { "instruction": "xxx" },
-			"de": { "instruction": "xxx" },
-			"it": { "instruction": "xxx" },
-			"he": { "instruction": "xxx" },
-			"ar": { "instruction": "xxx" },
-			"ja": { "instruction": "xxx" },
-			"zh": { "instruction": "xxx" }
-		},
+		"instructions": "Turn around",
 		"name": "Mary",
 		"initialHide": true,
-		"learn": {
-			"es": {
-				"learn": "xxx"
-			},
-			"en": {
-				"learn": "Meet Mary Somerville"
-			},
-			"fr": {
-				"learn": "xxx"
-			},
-			"pt": {
-				"learn": "xxx"
-			},
-			"tr": { "learn": "xxx" },
-			"de": { "learn": "xxx" },
-			"it": { "learn": "xxx" },
-			"he": { "learn": "xxx" },
-			"ar": { "learn": "xxx" },
-			"ja": { "learn": "xxx" },
-			"zh": { "learn": "xxx" }
-		},
+		"learn": "Meet Mary Somerville",
 		"link": "https://wikipedia.org/wiki/Mary_Somerville",
-		"result": {
-			"es": {
-				"result": "xxx"
-			},
-			"en": {
-				"result": "Why don't you extend your robotic arm and try to collect some?"
-			},
-			"fr": {
-				"result": "xxx"
-			},
-			"pt": {
-				"result": "xxx"
-			},
-			"tr": { "result": "xxx" },
-			"de": { "result": "xxx" },
-			"it": { "result": "xxx" },
-			"he": { "result": "xxx" },
-			"ar": { "result": "xxx" },
-			"ja": { "result": "xxx" },
-			"zh": { "result": "xxx" }
-		}
+		"result": "Why don't you extend your robotic arm and try to collect some?"
 	}
 ]
