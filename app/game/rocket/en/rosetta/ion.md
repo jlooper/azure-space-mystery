@@ -18,8 +18,5 @@ Suddenly Caroline cries out!
 
 _"You're not in the clear yet! We need to steer away from the comet itself. Quickly, make an evasive maneuver!"_
 
-You grab the steering column:
+<Page url="steer" instructions="" action="Continue" condition="none" />
 
-<Page url="dust"  action="Steer right" condition="none" />
-<Page url="down"  action="Steer down" condition="none" />
-<Page url="float"  action="Steer left" condition="none" />

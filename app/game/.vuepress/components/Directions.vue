@@ -4,92 +4,60 @@
       <button
         type="button"
         class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(1)"
+        @click="go('up')"
       >
-        🌒
+        👆
       </button>
 
       <button
         type="button"
         class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(4)"
+        @click="go('right')"
       >
-        🌑
+        👉
       </button>
       <button
         type="button"
         class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(5)"
+        @click="go('down')"
       >
-        🌔
+        👇
       </button>
 
       <button
         type="button"
         class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded"
-        @click="count(7)"
+        @click="go('left')"
       >
-        🌓
+        👈
       </button>
     </div>
-    <span v-for="word in wordsArray">{{ word }}</span>
     <div class="text-center">
       <p role="alert" class="pb-3">{{ message }}</p>
-      <button
-        type="button"
-        class="bg-transparent font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-        @click="test()"
-      >
-        Submit
-      </button>
     </div>
-
     <p v-if="showNext">
-      <router-link to="launch">Continue</router-link>
+      <router-link to="float">Continue</router-link>
     </p>
   </div>
 </template>
 <script>
-
 export default {
-  name: "Buttons",
+  name: "Directions",
 
   data() {
     return {
-      numbersArray: [],
-      wordsArray: [],
       message: "",
       showNext: false,
     };
   },
   methods: {
-    count(item) {
-      this.message = "";
-      //4,1,7,5
-      this.numbersArray.push(item);
-      console.log(item);
-      let phase = "";
-      if (item == 1) {
-        phase = "Waxing Crescent";
-      } else if (item == 4) {
-        phase = "New";
-      } else if (item == 5) {
-        phase = "Waxing Gibbous";
-      } else if (item == 7) {
-        phase = "First Quarter";
-      }
-      this.wordsArray.push(phase + ", ");
-      phase = "";
-    },
-    test() {
-      if (JSON.stringify([4, 1, 7, 5]) === JSON.stringify(this.numbersArray)) {
+    go(direction) {
+      if (direction == "down") {
         this.message = "Well done!";
         this.showNext = true;
       } else {
         this.message = "Sorry, try again";
       }
-      this.numbersArray = [];
-      this.wordsArray = [];
     },
   },
 };

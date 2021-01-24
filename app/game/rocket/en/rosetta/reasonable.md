@@ -10,4 +10,4 @@ Both you and the comet are on a trajectory but in different elliptical direction
 
 <Page url="increase" instructions="" action="Increase your distance from the sun" condition="none" />
 
-<Page url="reduce" instructions="" action="Reduce your distance from the sun" condition="none" />
+<Page url="reduce" instructions="" action="Reduce your distance to the sun" condition="none" />
