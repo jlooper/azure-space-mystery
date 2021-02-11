@@ -10,7 +10,7 @@ _"You have several spools for storing cables on this ship. Can you solve this eq
 
 You estimate that you need a spool circumference of 100 meters to wind up this length of string. You have several spools on your ship, but they are labeled by diameter. Which spool should you choose?
 
-To determine your spool by diameter, input the circumference you think you need to [this calculation tool](https://docs.microsoft.com/en-us/learn/modules/csharp-basic-operations/3-exercise-math-operators?WT.mc_id=academic-11769-cxa). Use the circumference divided by pi (3.14149) like this:
+To determine your spool by diameter, input the circumference you think you need to [this calculation tool](https://docs.microsoft.com/en-us/learn/modules/csharp-basic-operations/3-exercise-math-operators?WT.mc_id=academic-11769-cxa). Use the circumference divided by pi (3.14159) like this:
 
 <pre>
 
